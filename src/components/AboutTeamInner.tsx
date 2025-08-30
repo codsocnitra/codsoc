@@ -8,7 +8,7 @@ const AboutTeamInner: React.FC = () => {
       <div className='container'>
         <div className='max-w-602-px text-center mx-auto tw-mb-13'>
           <h3 className='splitTextStyleOne text-heading text-capitalize text-capitalize'>
-            Meet our experts
+            Meet our teams
           </h3>
           <p className='splitTextStyleOne text-neutral-500 tw-mt-8 max-w-500-px fw-medium'>
             Create tasks with various custom statuses to focus more on your keep

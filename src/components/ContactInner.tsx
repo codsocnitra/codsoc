@@ -26,7 +26,7 @@ const ContactInner: React.FC = () => {
                   </h5>
                   <div className='max-w-250-px mx-auto'>
                     <p className='group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne'>
-                      Bowery St, New York, 37 USA NY 10013,USA
+                      Nitra Technical Campus, P - Block Sanjay Nagar Raj Nagar Sector - 23, Ghaziabad
                     </p>
                   </div>
                 </div>
@@ -50,13 +50,13 @@ const ContactInner: React.FC = () => {
                       href='tel:+125556865234374221'
                       className='group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne'
                     >
-                      +1255 - 568 - 6523 4374-221
+                      +91 - 568 - 6523 4374-221
                     </a>
                     <a
                       href='tel:+12555686523'
                       className='group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne tw-mt-1'
                     >
-                      +1255 - 568 - 6523
+                      +91 - 568 - 6523
                     </a>
                   </div>
                 </div>
@@ -80,13 +80,13 @@ const ContactInner: React.FC = () => {
                       href='mailto:email@example.com'
                       className='group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne'
                     >
-                      email@example.com
+                      info@codsoc25.in
                     </a>
                     <a
                       href='mailto:info@yourdomain.com'
                       className='group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne'
                     >
-                      info@yourdomain.com
+                      codsoc25@nitra.ac.in
                     </a>
                   </div>
                 </div>
@@ -105,11 +105,11 @@ const ContactInner: React.FC = () => {
                     Get In Touch
                   </span>
                   <h3 className='splitTextStyleOne tw-mb-4'>Contact Us</h3>
-                  <p className='text-neutral-900'>
+                  {/* <p className='text-neutral-900'>
                     Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem
                     aperiam, eaque inventore
-                  </p>
+                  </p> */}
                 </div>
                 <div className='xs-grid-cols-2 d-grid tw-mt-16 tw-gap-74-px'>
                   <div className='d-flex align-items-start tw-gap-6'>
@@ -119,7 +119,7 @@ const ContactInner: React.FC = () => {
                     <div>
                       <h6 className='tw-mb-4'>Location</h6>
                       <p className='text-neutral-600'>
-                        55 Main street, 2nd block, Melbourne, Australia
+                        Nitra Technical Campus, P - Block Sanjay Nagar Raj Nagar Sector - 23, Ghaziabad
                       </p>
                     </div>
                   </div>
@@ -133,13 +133,13 @@ const ContactInner: React.FC = () => {
                         href='tel:+1(368)5678954'
                         className='text-neutral-600 hover-text-main-600'
                       >
-                        +1 (368) 567 89 54
+                        +91 (368) 567 89 54
                       </a>
                       <a
                         href='tel:+236(456)89622'
                         className='text-neutral-600 hover-text-main-600 tw-mt-1'
                       >
-                        +236 (456) 896 22
+                        +91 (456) 896 22
                       </a>
                     </div>
                   </div>
@@ -153,13 +153,13 @@ const ContactInner: React.FC = () => {
                         href='mailto:wiatechinfo@gmail.com'
                         className='text-neutral-600 hover-text-main-600'
                       >
-                        wiatechinfo@gmail.com
+                        info@codsoc25.in
                       </a>
                       <a
                         href='mailto:www.wiatech.com'
                         className='text-neutral-600 hover-text-main-600'
                       >
-                        www.wiatech.com
+                        codsoc25@nitra.ac.in
                       </a>
                     </div>
                   </div>
@@ -209,12 +209,13 @@ const ContactInner: React.FC = () => {
                 {/* map Start */}
                 <div className='map tw-mt-15'>
                   <iframe
-                    src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5591642.125572935!2d-118.45027922609367!3d46.81821123121407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5343f19fafa367dd%3A0xe0a08a08122c4da1!2sHelena-Lewis%20and%20Clark%20National%20Forest!5e0!3m2!1sen!2sbd!4v1731480188813!5m2!1sen!2sbd'
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.017043267792!2d77.4533476755029!3d28.689136775633788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf19d0066c2bd%3A0xce2128423fa59ccd!2sNITRA%20Technical%20Campus!5e0!3m2!1sen!2sin!4v1756586249673!5m2!1sen!2sin"
                     className='w-100'
                     height={240}
                     loading='lazy'
                     referrerPolicy='no-referrer-when-downgrade'
                   />
+
                 </div>
                 {/* map End */}
               </div>

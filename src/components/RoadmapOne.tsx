@@ -20,18 +20,15 @@ const RoadmapOne: React.FC = () => {
                     alt='Arrow'
                     className='position-absolute top-0 tw-end-0 animate__wobble__two'
                   />
-                  <span className='tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3'>
+                  {/* <span className='tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3'>
                     What we do
-                  </span>
-                  <h3 className='splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6'>
-                    <span className='d-inline-block fw-semibold'>
-                      Working Roadmap
-                    </span>
-                  </h3>
+                  </span> */}
+
                   <p className='splitTextStyleOne text-neutral-400 max-w-432-px'>
-                    In today's competitive business, the demand for efficient
-                    and cost-effective IT solutions has never been more
-                    critical.
+                    From competitive programming and open-source projects to hackathons and
+                    industry-driven workshops, CodSoc’25 is a launchpad for innovation and collaboration.
+                    Whether you’re a beginner curious about coding or an advanced programmer aiming for global
+                    competitions, we create an environment where you can learn, build, and lead.
                   </p>
                   <div className='tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap'>
                     <Link
@@ -43,9 +40,9 @@ const RoadmapOne: React.FC = () => {
                       data-block='button'
                     >
                       <span className='button__flair' />
-                      <span className='button__label'>Get Started</span>
+                      <span className='button__label'>Join Us</span>
                     </Link>
-                    <div
+                    {/* <div
                       data-aos='fade-up'
                       data-aos-anchor-placement='top-bottom'
                       data-aos-duration={800}
@@ -87,7 +84,7 @@ const RoadmapOne: React.FC = () => {
                       <p className='fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white'>
                         <span>5000+ Client reviews</span>
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -229,7 +226,7 @@ const RoadmapOne: React.FC = () => {
         </div>
         {/* what we do end */}
         {/* Global Increase Start */}
-        <div className='pt-120'>
+        {/* <div className='pt-120'>
           <h3 className='splitTextStyleOne fw-light tw-leading-104 tw-mb-14 text-center'>
             <span className='d-inline-block '>We Makes Globally</span>{" "}
             <span className='d-inline-block fw-semibold'>
@@ -330,7 +327,7 @@ const RoadmapOne: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Global Increase End */}
       </div>
     </section>

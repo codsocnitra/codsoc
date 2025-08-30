@@ -102,7 +102,7 @@ const HeaderTwo: React.FC = () => {
                   <Image
                     width={149}
                     height={30}
-                    src='/assets/images/logo/logo.png'
+                    src='/assets/images/logo/logo.jpg'
                     alt='Logo'
                     className='max-w-200-px'
                   />
@@ -220,7 +220,7 @@ const HeaderTwo: React.FC = () => {
               <Image
                 width={149}
                 height={30}
-                src='/assets/images/logo/logo.png'
+                src='/assets/images/logo/logo.jpg'
                 alt='Logo'
               />
             </Link>

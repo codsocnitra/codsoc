@@ -1,127 +1,46 @@
-import Image from "next/image";
-import Link from "next/link";
+"use client";
+import React from "react";
+import CountUp from "react-countup";
 
-const BlogOne: React.FC = () => {
+const ImpactAchievements: React.FC = () => {
+  const stats = [
+    { value: 27000, suffix: "+", label: "Lines of Code Written by Members" },
+    { value: 88, suffix: "%", label: "Student Participation in Coding Events" },
+    { value: 3, suffix: "x", label: "Growth in Hackathon Participation since 2023" },
+    { value: 50, suffix: "+", label: "Research Papers Published by Members" },
+    { value: 95, suffix: "%", label: "Members Industry-Ready with Advanced Skills" },
+    { value: 1500, suffix: "+", label: "Hours of Coding & Training Conducted" },
+  ];
+
   return (
-    <section className='blog'>
-      <div className='container'>
-        <div className='bg-white common-shadow-five py-120 tw-px-90-px'>
-          <span className='line w-0 tw-h-2 bg-main-600 tw-mb-4' />
-          <div className='d-flex align-items-center justify-content-between tw-mb-12'>
-            <h6>
-              Insights to help you do what you do better, faster and more
-              profitably.
-            </h6>
-            <Link
-              href='/register'
-              className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4'
-              data-block='button'
-            >
-              <span className='button__flair' />
-              <span className='button__label'>Sign Up Now</span>
-            </Link>
-          </div>
-          {/* Blog items start */}
-          <div className='row gy-4'>
-            <div
-              className='col-sm-6'
-              data-aos='fade-up'
-              data-aos-anchor-placement='top-bottom'
-              data-aos-duration={200}
-            >
-              <div className='group-item'>
-                <Link
-                  href='/blog-details'
-                  className='w-100 h-100 overflow-hidden'
-                >
-                  <Image
-                    width={582}
-                    height={319}
-                    src='/assets/images/thumbs/blog-img1.png'
-                    alt='Blog Image'
-                    className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
-                  />
-                </Link>
-                <div className='tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap'>
-                  <span className='text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base'>
-                    02 Apr 2025
-                  </span>
-                  <span className='text-heading fw-medium tw-text-base'>
-                    Comments (03)
-                  </span>
-                </div>
-                <h5 className='tw-mt-4'>
-                  <Link
-                    href='/blog-details'
-                    className='hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1'
-                  >
-                    15 Best AI Apps for Android to Make Life Easier
-                  </Link>
-                </h5>
-                <Link
-                  href='/blog-details'
-                  className='text-main-600 fw-medium tw-text-lg hover--translate-y-1'
-                >
-                  Learn More
-                  <span className='d-inline-flex tw-text-sm'>
-                    <i className='ph-bold ph-arrow-up-right' />
-                  </span>
-                </Link>
+    <section className="impact py-20">
+      <div className="container">
+        <div className="bg-white common-shadow-five py-16 px-10 rounded-2xl">
+          <span className="line w-20 h-1 bg-main-600 block mb-6" />
+          <h2 className="text-3xl font-bold mb-12 text-center">
+            Impact & Achievements
+          </h2>
+
+          {/* Row based layout */}
+          <div className="flex flex-wrap justify-center gap-8">
+            {stats.map((item, index) => (
+              <div
+                key={index}
+                className="w-[280px] p-6 border rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 group text-center"
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+              >
+                <h3 className="text-4xl font-extrabold text-main-600 mb-3 group-hover:scale-105 transition-transform">
+                  <CountUp end={item.value} duration={2} /> {item.suffix}
+                </h3>
+                <p className="text-gray-700 text-lg">{item.label}</p>
               </div>
-            </div>
-            <div
-              className='col-sm-6'
-              data-aos='fade-up'
-              data-aos-anchor-placement='top-bottom'
-              data-aos-duration={400}
-            >
-              <div className='group-item'>
-                <Link
-                  href='/blog-details'
-                  className='w-100 h-100 overflow-hidden'
-                >
-                  <Image
-                    width={582}
-                    height={319}
-                    src='/assets/images/thumbs/blog-img2.png'
-                    alt='Blog Image'
-                    className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
-                  />
-                </Link>
-                <div className='tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap'>
-                  <span className='text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base'>
-                    02 Apr 2025
-                  </span>
-                  <span className='text-heading fw-medium tw-text-base'>
-                    Comments (03)
-                  </span>
-                </div>
-                <h5 className='tw-mt-4'>
-                  <Link
-                    href='/blog-details'
-                    className='hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1'
-                  >
-                    15 Best man-made intelligence Applications for Android to
-                    Make Life More straightforward
-                  </Link>
-                </h5>
-                <Link
-                  href='/blog-details'
-                  className='text-main-600 fw-medium tw-text-lg hover--translate-y-1'
-                >
-                  Learn More
-                  <span className='d-inline-flex tw-text-sm'>
-                    <i className='ph-bold ph-arrow-up-right' />
-                  </span>
-                </Link>
-              </div>
-            </div>
+            ))}
           </div>
-          {/* Blog items end */}
         </div>
       </div>
     </section>
   );
 };
 
-export default BlogOne;
+export default ImpactAchievements;

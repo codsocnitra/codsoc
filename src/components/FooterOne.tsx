@@ -10,7 +10,7 @@ const FooterOne: React.FC = () => {
         <div className='d-flex align-items-center tw-gap-505'>
           <div className='flex-grow-1'>
             <div className='d-flex align-items-center flex-lg-nowrap flex-wrap tw-gap-100-px tw-pb-13 border-bottom border-neutral-700'>
-              <div
+              {/* <div
                 className='max-w-514-px w-100 d-flex align-items-center tw-gap-505'
                 data-aos='fade-up'
                 data-aos-anchor-placement='top-bottom'
@@ -28,8 +28,8 @@ const FooterOne: React.FC = () => {
                 <p className='text-neutral-300 max-w-194-px '>
                   Average revenue growth for per successful clients
                 </p>
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 className='max-w-514-px w-100 d-flex align-items-center tw-gap-505'
                 data-aos='fade-up'
                 data-aos-anchor-placement='top-bottom'
@@ -43,9 +43,9 @@ const FooterOne: React.FC = () => {
                     Average revenue growth for per successful clients
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
-            <div className='tw-pt-8 d-flex align-items-center tw-gap-8 flex-wrap'>
+            {/* <div className='tw-pt-8 d-flex align-items-center tw-gap-8 flex-wrap'>
               <ul className='d-flex align-items-center tw-gap-8 flex-wrap'>
                 <li
                   className='d-flex align-items-center tw-gap-3'
@@ -110,16 +110,16 @@ const FooterOne: React.FC = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
-          <div className='flex-shrink-0 gradient-overlay d-md-block d-none'>
+          {/* <div className='flex-shrink-0 gradient-overlay d-md-block d-none'>
             <Image
               width={314}
               height={298}
               src='/assets/images/thumbs/footer-img.png'
               alt='tech'
             />
-          </div>
+          </div> */}
         </div>
       </div>
       {/* Footer Top End */}
@@ -139,7 +139,7 @@ const FooterOne: React.FC = () => {
                   <Image
                     width={149}
                     height={30}
-                    src='/assets/images/logo/logo-white.png'
+                    src='/assets/images/logo/logo.jpg'
                     alt='tech'
                   />
                 </Link>
@@ -189,26 +189,26 @@ const FooterOne: React.FC = () => {
                       Contact Us
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Pricing and plans
                     </Link>
-                  </li>
-                  <li className='mb-0'>
+                  </li> */}
+                  {/* <li className='mb-0'>
                     <Link
                       href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Cookies Policy
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
-            <div
+            {/* <div
               className='col-lg-2 col-sm-6 col-xs-6'
               data-aos='fade-up'
               data-aos-duration={1000}
@@ -266,7 +266,7 @@ const FooterOne: React.FC = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div
               className='col-lg-3 col-sm-6 col-xs-6'
               data-aos='fade-up'
@@ -285,7 +285,8 @@ const FooterOne: React.FC = () => {
                   </span>
                   <div>
                     <p className='text-neutral-400 d-block mb-1'>
-                      55 Main Street, 2nd block Malborne, Australia
+                      Nitra Technical Campus <br />
+                      P - Block, Sanjay Nagar, Raj Nagar Sector -23, Ghaziabad
                     </p>
                   </div>
                 </div>
@@ -296,7 +297,7 @@ const FooterOne: React.FC = () => {
                   href='mailto:support@gmail.com'
                   className='text-neutral-400 hover--translate-y-1 active--translate-y-scale-9'
                 >
-                  support@gmail.com
+                  codsoc25@nitra.ac.in
                 </a>
                 <div className='d-flex align-items-center tw-gap-5 tw-mt-2'>
                   <span className='d-flex tw-text-3xl text-main-600'>
@@ -312,7 +313,7 @@ const FooterOne: React.FC = () => {
                       href='tel:+880(123)45688'
                       className='d-block mb-1 tw-text-2xl text-white hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9'
                     >
-                      +880 (123) 456 88
+                      +91 76520 93805
                     </a>
                   </div>
                 </div>
@@ -329,12 +330,12 @@ const FooterOne: React.FC = () => {
               <p className='text--white text-line-1 fw-normal'>
                 © {new Date().getFullYear()}{" "}
                 <a
-                  href='https://themeforest.net/user/webnextpro'
+                  href='#'
                   className='fw-medium hover-underline hover--translate-y-1 active--translate-y-scale-9'
                 >
-                  Webnextpro
+                  CodSoc'25
                 </a>
-                - IT Services. All rights reserved.
+                - Official Coding Society of Nitra Technical Campus. All rights reserved.
               </p>
               <ul className='d-grid d-sm-flex align-items-center tw-gap-6'>
                 <li>

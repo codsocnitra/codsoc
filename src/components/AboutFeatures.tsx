@@ -9,8 +9,11 @@ const AboutFeatures: React.FC = () => {
           <div className='max-w-532-px'>
             <h3 className='splitTextStyleOne text-capitalize'>
               {" "}
-              It actually work for cloud system based your app{" "}
+              We aim to
             </h3>
+            <p>
+              CodSoc’25 was founded in 2025 as the official coding and innovation society of Nitra Technical Campus (NTC), Ghaziabad.
+            </p>
           </div>
           <div
             data-aos='fade-up'
@@ -18,9 +21,7 @@ const AboutFeatures: React.FC = () => {
             data-aos-duration={800}
           >
             <p className='splitTextStyleOne text-neutral-500 max-w-490-px fw-medium tw-ps-5 border-start border-app-landing border-2'>
-              Create tasks with various custom statuses to focus more on your
-              keep track of the progress of each why in the simply enjoy process
-              for your business.
+              Our society acts as a bridge between academic learning and industry expectations, ensuring that every student develops practical knowledge, problem-solving ability, and teamwork skills.
             </p>
           </div>
         </div>
@@ -42,11 +43,9 @@ const AboutFeatures: React.FC = () => {
                 />
               </span>
               <h5 className='splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200'>
-                Comprehensive Education
+                Promote coding culture across all years and branches.
               </h5>
-              <p className='splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200'>
-                Web hosting provides everything idea online. From where your
-              </p>
+
             </div>
           </div>
           <div
@@ -66,11 +65,9 @@ const AboutFeatures: React.FC = () => {
                 />
               </span>
               <h5 className='splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200'>
-                User-friendly Interface
+                Encourage innovation through guided projects and hackathons.
               </h5>
-              <p className='splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200'>
-                Web hosting provides everything idea online. From where your
-              </p>
+
             </div>
           </div>
           <div
@@ -90,11 +87,9 @@ const AboutFeatures: React.FC = () => {
                 />
               </span>
               <h5 className='splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200'>
-                Bookkeeping &amp; Cash Flow
+                Build industry-ready skills with modern frameworks, AI/ML, and open-source exposure.
               </h5>
-              <p className='splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200'>
-                Web hosting provides everything idea online. From where your
-              </p>
+
             </div>
           </div>
           <div
@@ -114,11 +109,9 @@ const AboutFeatures: React.FC = () => {
                 />
               </span>
               <h5 className='splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200'>
-                Customized reminder alerts
+                Connect students with opportunities at the national and international level.
               </h5>
-              <p className='splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200'>
-                Web hosting provides everything idea online. From where your
-              </p>
+
             </div>
           </div>
         </div>

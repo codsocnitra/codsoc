@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Children, useEffect, useState } from "react";
 
 const HeaderOne: React.FC = () => {
   let pathname = usePathname();
@@ -32,35 +32,35 @@ const HeaderOne: React.FC = () => {
     {
       label: "Home",
       children: [
-        { label: "IT Solution", href: "/" },
-        { label: "Web Hosting", href: "/demo-2" },
-        { label: "Task Management", href: "/demo-3" },
-        { label: "CRM Software", href: "/demo-4" },
-        { label: "App Landing", href: "/demo-5" },
+        { label: "Home", href: "/" },
+        // { label: "Web Hosting", href: "/demo-2" },
+        // { label: "Task Management", href: "/demo-3" },
+        // { label: "CRM Software", href: "/demo-4" },
+        // { label: "App Landing", href: "/demo-5" },
       ],
     },
     {
       label: "Pages",
       children: [
-        { label: "Pricing", href: "/pricing-plan" },
+        // { label: "Pricing", href: "/pricing-plan" },
         { label: "About Us", href: "/about" },
-        { label: "App Integration", href: "/app-intigration" },
-        { label: "Integration Details", href: "/intigration-details" },
+        // { label: "App Integration", href: "/app-intigration" },
+        // { label: "Integration Details", href: "/intigration-details" },
         { label: "Privacy Policy", href: "/policy-privacy" },
         { label: "FAQ", href: "/faq" },
         { label: "Project Details", href: "/project-details" },
-        { label: "Service Details", href: "/service-details" },
+        // { label: "Service Details", href: "/service-details" },
       ],
     },
-    {
-      label: "Shop",
-      children: [
-        { label: "Shop", href: "/shop" },
-        { label: "Shop Details", href: "/shop-details" },
-        { label: "Cart", href: "/cart" },
-        { label: "Checkout", href: "/checkout" },
-      ],
-    },
+    // {
+    //   label: "Shop",
+    //   children: [
+    //     { label: "Shop", href: "/shop" },
+    //     { label: "Shop Details", href: "/shop-details" },
+    //     { label: "Cart", href: "/cart" },
+    //     { label: "Checkout", href: "/checkout" },
+    //   ],
+    // },
     {
       label: "Blog",
       children: [
@@ -69,6 +69,13 @@ const HeaderOne: React.FC = () => {
       ],
     },
     { label: "Contact", href: "/contact" },
+    {
+      label: "Call to Action",
+      children: [
+        { label: "Join the society", href: "/#" },
+        { label: "Explore Events", href: "/" },
+      ],
+    }
   ];
 
   /* which top‑level submenu is open?  -1 = none */
@@ -85,20 +92,19 @@ const HeaderOne: React.FC = () => {
       <div className='overlay'></div>
       <div className={`side-overlay ${mobileMenu && "active"}`}></div>
       <header
-        className={`header bg-white transition-all ${
-          scroll && "fixed-header"
-        } `}
+        className={`header bg-white transition-all ${scroll && "fixed-header"
+          } `}
       >
         <div className='container container-two'>
           <nav className='d-flex align-items-center justify-content-between'>
             {/* Logo Start */}
-            <div className='logo'>
+            <div className='logo pt-2' >
               <Link
                 href='/'
                 className='link hover--translate-y-1 active--translate-y-scale-9'
               >
                 <Image
-                  src='/assets/images/logo/logo.png'
+                  src='/assets/images/logo/logo.jpg'
                   alt='Logo'
                   className='max-w-200-px'
                   width={150}
@@ -119,11 +125,10 @@ const HeaderOne: React.FC = () => {
                   return (
                     <li
                       key={item.label}
-                      className={`nav-menu__item ${
-                        item.children
-                          ? "nav-menu__item has-submenu position-relative"
-                          : ""
-                      } ${active ? "activePage" : ""}`}
+                      className={`nav-menu__item ${item.children
+                        ? "nav-menu__item has-submenu position-relative"
+                        : ""
+                        } ${active ? "activePage" : ""}`}
                     >
                       {item.children ? (
                         <Link
@@ -147,9 +152,8 @@ const HeaderOne: React.FC = () => {
                           {item.children.map((sub) => (
                             <li
                               key={sub.href}
-                              className={`nav-submenu__item d-block tw-rounded tw-duration-200 position-relative ${
-                                sub.href === pathname ? "activePage" : ""
-                              }`}
+                              className={`nav-submenu__item d-block tw-rounded tw-duration-200 position-relative ${sub.href === pathname ? "activePage" : ""
+                                }`}
                             >
                               <Link
                                 href={sub.href}
@@ -170,14 +174,14 @@ const HeaderOne: React.FC = () => {
             {/* Menu End  */}
             {/* Header Right start */}
             <div className='d-flex align-items-center tw-gap-6'>
-              <Link
+              {/* <Link
                 href='/register'
                 className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4 fw-semibold'
                 data-block='button'
               >
                 <span className='button__flair' />
                 <span className='button__label'>Sign Up Now</span>
-              </Link>
+              </Link> */}
               <button
                 onClick={handleMobileMenu}
                 type='button'
@@ -194,9 +198,8 @@ const HeaderOne: React.FC = () => {
       {/* Mobile menu */}
       <>
         <div
-          className={`mobile-menu d-lg-none d-block scroll-sm position-fixed bg-white tw-w-300-px tw-h-screen overflow-y-auto tw-p-6 tw-z-999 tw--translate-x-full tw-pb-68 ${
-            mobileMenu && "active"
-          }`}
+          className={`mobile-menu d-lg-none d-block scroll-sm position-fixed bg-white tw-w-300-px tw-h-screen overflow-y-auto tw-p-6 tw-z-999 tw--translate-x-full tw-pb-68 ${mobileMenu && "active"
+            }`}
         >
           <button
             onClick={handleMobileMenu}
@@ -210,7 +213,7 @@ const HeaderOne: React.FC = () => {
               <Image
                 width={150}
                 height={30}
-                src='/assets/images/logo/logo.png'
+                src='/assets/images/logo/logo.jpg'
                 alt='Logo'
               />
             </Link>
@@ -224,9 +227,8 @@ const HeaderOne: React.FC = () => {
                   return (
                     <li
                       key={item.label}
-                      className={`nav-menu__item ${
-                        item.children ? "has-submenu position-relative" : ""
-                      } ${active ? "activePage" : ""}`}
+                      className={`nav-menu__item ${item.children ? "has-submenu position-relative" : ""
+                        } ${active ? "activePage" : ""}`}
                     >
                       {item.children ? (
                         <button
@@ -248,16 +250,14 @@ const HeaderOne: React.FC = () => {
                       {/* ----- submenu ----- */}
                       {item.children && (
                         <ul
-                          className={`nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99 ${
-                            open ? "d-block" : "d-none"
-                          }`}
+                          className={`nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99 ${open ? "d-block" : "d-none"
+                            }`}
                         >
                           {item.children.map((sub) => (
                             <li
                               key={sub.href}
-                              className={`nav-submenu__item d-block tw-rounded tw-duration-200 position-relative ${
-                                sub.href === pathname ? "activePage" : ""
-                              }`}
+                              className={`nav-submenu__item d-block tw-rounded tw-duration-200 position-relative ${sub.href === pathname ? "activePage" : ""
+                                }`}
                             >
                               <Link
                                 href={sub.href}
@@ -274,14 +274,14 @@ const HeaderOne: React.FC = () => {
                 })}
               </ul>
             </div>
-            <Link
+            {/* <Link
               href='/'
               className='btn btn-main-two hover-style-two button--stroke d-sm-none d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-8 rounded-pill tw-mt-6'
               data-block='button'
             >
               <span className='button__flair' />
               <span className='button__label'>Sign Up Now</span>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </>

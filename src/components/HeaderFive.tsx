@@ -172,7 +172,7 @@ const HeaderFive: React.FC = () => {
                 data-block='button'
               >
                 <span className='button__flair' />
-                <span className='button__label'>Sign Up Now</span>
+                {/* <span className='button__label'>Sign Up Now</span> */}
               </Link>
               <button
                 onClick={handleMobileMenu}
@@ -206,7 +206,7 @@ const HeaderFive: React.FC = () => {
               <Image
                 width={150}
                 height={30}
-                src='/assets/images/logo/logo.png'
+                src='/assets/images/logo/logo.jpg'
                 alt='Logo'
               />
             </Link>

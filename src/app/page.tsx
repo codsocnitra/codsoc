@@ -16,19 +16,20 @@ import CustomCursor from "../helper/CustomCursor";
 import AboutOne from "../components/AboutOne";
 import Image from "next/image";
 import dynamic from "next/dynamic";
+import ProjectsShowcase from "../components/ProjectsShowcase";
 
 const BrandSliderOne = dynamic(() => import("../components/BrandSliderOne"));
 const ShowCaseOne = dynamic(() => import("../components/ShowCaseOne"));
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: "About | SassTech - Saas Software and IT Solution",
+    title: "Home | CodSoc'25 - Official Coding Society of Nitra Technical Campus",
     description:
       "Learn more about our SaaS software, team, features, and IT solutions.",
     openGraph: {
-      title: "Home | SassTech",
+      title: "Home | CodSoc'25",
       description:
-        "Learn more about our SaaS software, team, features, and IT solutions.",
+        "CodSoc’25 – Official Coding Society of Nitra Technical Campus",
       url: "https://nextjs.sasstech.webnextpro.com/about",
       type: "website",
       images: [
@@ -50,7 +51,7 @@ const Page: React.FC = () => {
       <CustomCursor />
 
       {/* Top Header One */}
-      <TopHeaderOne />
+      {/* <TopHeaderOne /> */}
 
       {/* HeaderOne */}
       <HeaderOne />
@@ -62,7 +63,7 @@ const Page: React.FC = () => {
       <BannerOne />
 
       {/* BrandSliderOne */}
-      <BrandSliderOne />
+      {/* <BrandSliderOne /> */}
 
       {/* AboutOne */}
       <AboutOne />
@@ -80,7 +81,7 @@ const Page: React.FC = () => {
       <ChooseUsOne />
 
       {/* ShowCaseOne */}
-      <ShowCaseOne />
+      {/* <ShowCaseOne /> */}
 
       {/* TestimonialsOne */}
       <TestimonialsOne />
@@ -94,6 +95,9 @@ const Page: React.FC = () => {
           alt='Shape'
           className='position-absolute w-100 tw-start-0 bottom-0 z-n1'
         />
+
+        {/* Project ShowCase */}
+        <ProjectsShowcase />
         {/* BlogOne */}
         <BlogOne />
 

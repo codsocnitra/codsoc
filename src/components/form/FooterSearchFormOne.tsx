@@ -30,7 +30,7 @@ const FooterSearchFormOne: React.FC = () => {
         data-block='button'
       >
         <span className='button__flair' />
-        <span className='button__label'>Sign Up</span>
+        <span className='button__label'>Subscribe</span>
         <span className='text-white tw-text-sm tw-rounded d-flex justify-content-center align-items-center position-relative group-hover-text-main-600 tw-duration-500'>
           <i className='ph-bold ph-caret-right' />
         </span>

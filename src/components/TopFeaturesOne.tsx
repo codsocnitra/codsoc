@@ -17,7 +17,7 @@ const TopFeaturesOne: React.FC = () => {
                 />
               </span>
               <span className='text-heading fw-medium tw-text-base'>
-                Perfect solution for success
+                Code
               </span>
             </div>
             <div className='d-flex align-items-center tw-gap-4 px-5'>
@@ -30,7 +30,7 @@ const TopFeaturesOne: React.FC = () => {
                 />
               </span>
               <span className='text-heading fw-medium tw-text-base'>
-                Excellence in tailored IT Srvices
+                Collaborate
               </span>
             </div>
             <div className='d-flex align-items-center tw-gap-4 px-5'>
@@ -43,7 +43,7 @@ const TopFeaturesOne: React.FC = () => {
                 />
               </span>
               <span className='text-heading fw-medium tw-text-base'>
-                Elevate your brand sasstech
+                Conquer
               </span>
             </div>
             <div className='d-flex align-items-center tw-gap-4 px-5'>
@@ -56,7 +56,7 @@ const TopFeaturesOne: React.FC = () => {
                 />
               </span>
               <span className='text-heading fw-medium tw-text-base'>
-                Achieve business golas solution
+                Collaborate
               </span>
             </div>
             <div className='d-flex align-items-center tw-gap-4 px-5'>
@@ -69,7 +69,34 @@ const TopFeaturesOne: React.FC = () => {
                 />
               </span>
               <span className='text-heading fw-medium tw-text-base'>
-                Innnovation in every presence
+                Code
+              </span>
+            </div>
+            <div className='d-flex align-items-center tw-gap-4 px-5'>
+              <span>
+                <Image
+                  width={18}
+                  height={17}
+                  src='/assets/images/icons/chart-icon.svg'
+                  alt='Sasstech Next JS'
+                />
+              </span>
+              <span className='text-heading fw-medium tw-text-base'>
+                Collaborate
+
+              </span>
+            </div>
+            <div className='d-flex align-items-center tw-gap-4 px-5'>
+              <span>
+                <Image
+                  width={18}
+                  height={17}
+                  src='/assets/images/icons/chart-icon.svg'
+                  alt='Sasstech Next JS'
+                />
+              </span>
+              <span className='text-heading fw-medium tw-text-base'>
+                Conquer
               </span>
             </div>
           </Marquee>

@@ -15,13 +15,13 @@ const AboutBannerInner: React.FC = () => {
                     <Image
                       width={52}
                       height={32}
-                      src='/assets/images/logo/favicon-two.png'
+                      src='/assets/images/logo/logo.jpg'
                       alt='Favicon'
                     />
                     <h1 className='tw-mt-405'>
-                      SassTech is here to help you launch your project!
+                      Who We Are
                     </h1>
-                    <div className='d-flex align-items-center tw-gap-4 justify-content-center tw-mt-12 flex-wrap'>
+                    {/* <div className='d-flex align-items-center tw-gap-4 justify-content-center tw-mt-12 flex-wrap'>
                       <Link
                         href='/register'
                         className='hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn btn-main hover-style-one'
@@ -38,7 +38,7 @@ const AboutBannerInner: React.FC = () => {
                         <span className='button__flair' />
                         <span className='button__label'>get started trial</span>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

@@ -28,16 +28,16 @@ const CtaOne: React.FC = () => {
           <div className='col-md-6'>
             <div className='ps-lg-4 max-w-532-px'>
               <span className='tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205'>
-                Have A Projects?
+                Have A doubt ?
               </span>
               <h3 className='splitTextStyleOne fw-light tw-leading-104 tw-mb-5 d-flex gap-2'>
                 <span className='d-inline-block fw-semibold'>
-                  <span className='fw-normal'>Have</span> A Project? Speak With
+                  <span className='fw-normal'>Have</span> A Doubt? Speak With
                   Our <span className='fw-normal'> expert.</span>
                 </span>
               </h3>
               <p className='text-neutral-600 tw-text-lg splitTextStyleOne'>
-                Leave your contacts and get a free consultation from
+                Leave your contacts and feel  free to consultation from
               </p>
               <Link
                 href='/register'
@@ -48,7 +48,7 @@ const CtaOne: React.FC = () => {
                 data-block='button'
               >
                 <span className='button__flair' />
-                <span className='button__label'>Get Started Today</span>
+                <span className='button__label'>Join the Society</span>
               </Link>
             </div>
           </div>

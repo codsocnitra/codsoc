@@ -28,10 +28,10 @@ const AboutCounter: React.FC = () => {
           >
             <div className='max-w-295-px tw-max-h-295-px text-center rounded-circle w-100 h-100 aspect-1 d-flex flex-column justify-content-center align-items-center hover-bg-neutral-100 tw-transition tw-duration-200'>
               <h3 className='h1'>
-                <span className='counter'>20M</span>
+                <span className='counter'>3+</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
-                worldwide clients
+                Events
               </span>
             </div>
           </div>
@@ -46,7 +46,7 @@ const AboutCounter: React.FC = () => {
                 <span className='counter'>95%</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
-                worldwide clients
+                presence
               </span>
             </div>
           </div>
@@ -58,10 +58,10 @@ const AboutCounter: React.FC = () => {
           >
             <div className='max-w-295-px tw-max-h-295-px text-center rounded-circle w-100 h-100 aspect-1 d-flex flex-column justify-content-center align-items-center hover-bg-neutral-100 tw-transition tw-duration-200'>
               <h3 className='h1'>
-                <span className='counter'>3X</span>
+                <span className='counter'>3+</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
-                worldwide clients
+                programs
               </span>
             </div>
           </div>
@@ -73,10 +73,10 @@ const AboutCounter: React.FC = () => {
           >
             <div className='max-w-295-px tw-max-h-295-px text-center rounded-circle w-100 h-100 aspect-1 d-flex flex-column justify-content-center align-items-center hover-bg-neutral-100 tw-transition tw-duration-200'>
               <h3 className='h1'>
-                <span className='counter'>99 K+</span>
+                <span className='counter'>300+</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
-                worldwide clients
+                participants
               </span>
             </div>
           </div>
