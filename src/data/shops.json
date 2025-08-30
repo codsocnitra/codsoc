@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Smart wireless headphone",
+    "price": "199",
+    "img": "/assets/images/thumbs/product-img2.png"
+  },
+  {
+    "id": 2,
+    "title": "Go pro hero action camera",
+    "price": "129",
+    "img": "/assets/images/thumbs/product-img3.png"
+  },
+  {
+    "id": 3,
+    "title": "Colorful apple Ipad",
+    "price": "19",
+    "img": "/assets/images/thumbs/product-img4.png"
+  },
+  {
+    "id": 4,
+    "title": "Humidifiler white grow",
+    "price": "59",
+    "img": "/assets/images/thumbs/product-img5.png"
+  },
+  {
+    "id": 5,
+    "title": "Apple Iphone 16 promax",
+    "price": "300",
+    "img": "/assets/images/thumbs/product-img6.png"
+  },
+  {
+    "id": 6,
+    "title": "Go pro hero action camera",
+    "price": "150",
+    "img": "/assets/images/thumbs/product-img7.png"
+  },
+  {
+    "id": 7,
+    "title": "Apple smartwatch series",
+    "price": "320",
+    "img": "/assets/images/thumbs/product-img8.png"
+  },
+  {
+    "id": 8,
+    "title": "Instax pro camera hero",
+    "price": "233",
+    "img": "/assets/images/thumbs/product-img9.png"
+  },
+  {
+    "id": 9,
+    "title": "Macbook m1 cheap pro",
+    "price": "60",
+    "img": "/assets/images/thumbs/product-img10.png"
+  },
+  {
+    "id": 10,
+    "title": "VISION RAC Micro Oven ",
+    "price": "89",
+    "img": "/assets/images/thumbs/product-img11.png"
+  },
+  {
+    "id": 11,
+    "title": "Folding Keayboard display",
+    "price": "99",
+    "img": "/assets/images/thumbs/product-img12.png"
+  },
+  {
+    "id": 12,
+    "title": "Logitech Mouse Havit",
+    "price": "79",
+    "img": "/assets/images/thumbs/product-img1.png"
+  }
+]
