@@ -3,7 +3,7 @@
 Thank you for purchasing SassTech - Saas Software and IT Solution Multipurpose NEXT JS Template If you have any questions that are beyond the scope of this help file, please feel free to email, via my user page contact form or put a ticket at Support Center .
 Thank you so much!
 
-## All Pages
+## All Pages 
 
 - Home one
 - Home two
