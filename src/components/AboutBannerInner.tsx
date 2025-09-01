@@ -47,7 +47,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img1.png'
+                    src='/assets/images/thumbs/about-banner-img1.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -56,7 +56,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img2.png'
+                    src='/assets/images/thumbs/about-banner-img2.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -65,7 +65,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img3.png'
+                    src='/assets/images/thumbs/about-banner-img3.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -74,7 +74,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img4.png'
+                    src='/assets/images/thumbs/about-banner-img4.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -83,7 +83,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img5.png'
+                    src='/assets/images/thumbs/about-banner-img5.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -92,7 +92,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img6.png'
+                    src='/assets/images/thumbs/about-banner-img6.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -101,7 +101,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img7.png'
+                    src='/assets/images/thumbs/about-banner-img7.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -110,7 +110,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img8.png'
+                    src='/assets/images/thumbs/about-banner-img8.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -119,7 +119,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img9.png'
+                    src='/assets/images/thumbs/about-banner-img9.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -128,7 +128,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img10.png'
+                    src='/assets/images/thumbs/about-banner-img10.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -137,7 +137,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img11.png'
+                    src='/assets/images/thumbs/about-banner-img5.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
@@ -146,7 +146,7 @@ const AboutBannerInner: React.FC = () => {
                   <Image
                     width={105}
                     height={109}
-                    src='/assets/images/thumbs/about-banner-img12.png'
+                    src='/assets/images/thumbs/about-banner-img1.jpg'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />

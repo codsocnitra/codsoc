@@ -32,12 +32,12 @@ const AboutOne: React.FC = () => {
                   <div className="col-sm-6" data-aos="fade-up" data-aos-duration={800}>
                     <div className="bg-main-two-600 tw-rounded-3xl tw-h-300-px d-flex flex-column justify-content-center align-items-center position-relative">
                       <Image
-                        width={277}
-                        height={326}
-                        src="/assets/images/thumbs/model.png"
+                        src="/assets/images/thumbs/nitra.png"
                         alt="student community"
-                        className="position-absolute tw-start-50 bottom-0 tw-translate-x-50"
+                        fill
+                        className="object-contain"
                       />
+
                     </div>
                     <div className="bg-white tw-rounded-lg common-shadow-one border-bottom border-3 border-main-600 tw-px-4 tw-py-2 d-flex align-items-center tw-gap-3 z-1 position-absolute top-0 tw-end-0 tw-mt-194-px">
                       <span className="bg-neutral-200 tw-w-10 tw-h-10 tw-rounded-xl d-flex justify-content-center align-items-center text-neutral-500">
@@ -108,7 +108,7 @@ const AboutOne: React.FC = () => {
                 </div>
 
                 <p className="text-neutral-600 tw-mb-6">
-                  CodSoc’25 was founded in 2025 as the official coding and innovation society of 
+                  CodSoc’25 was founded in 2025 as the official coding and innovation society of
                   <strong> Nitra Technical Campus (NTC), Ghaziabad</strong>.
                 </p>
 
@@ -120,8 +120,8 @@ const AboutOne: React.FC = () => {
                 </ul>
 
                 <p className="text-neutral-600 tw-mt-8">
-                  Our society acts as a bridge between academic learning and industry expectations, 
-                  ensuring that every student develops practical knowledge, problem-solving ability, 
+                  Our society acts as a bridge between academic learning and industry expectations,
+                  ensuring that every student develops practical knowledge, problem-solving ability,
                   and teamwork skills.
                 </p>
               </div>

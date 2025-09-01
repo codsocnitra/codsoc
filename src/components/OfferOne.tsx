@@ -32,9 +32,9 @@ const OfferOne: React.FC = () => {
               <h4 className="splitTextStyleOne tw-mb-5 max-w-330-px">
                 Web Dev, AI/ML, Cybersecurity, Cloud, Data Science & Blockchain
               </h4>
-              <p className="text-white-50">
-                Beginner to advanced level sessions with hands-on coding,
-                conducted by faculty mentors, alumni, and industry experts.
+              <p className="text-black-600 ">
+                Beginner to advanced level sessions  with hands-on coding,
+                conducted by <br />faculty mentors, alumni, and industry<br /> experts.
               </p>
               <Link
                 href="/service-details"
@@ -43,11 +43,11 @@ const OfferOne: React.FC = () => {
                 <i className="ph-bold ph-arrow-up-right" />
               </Link>
               <Image
-                width={447}
-                height={170}
-                src="/assets/images/thumbs/offer-img1.png"
+                width={347}
+                height={371}
+                src="/assets/images/thumbs/offer-img1.jpg"
                 alt="Workshops & Bootcamps"
-                className="tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1"
+                className="tw-duration-300 position-absolute bottom-0 rounded tw-end-0 z-n1"
               />
             </div>
           </div>
@@ -61,9 +61,9 @@ const OfferOne: React.FC = () => {
               <h4 className="splitTextStyleOne tw-mb-5 max-w-330-px">
                 Internal & National Level Coding Challenges
               </h4>
-              <p className="text-neutral-700">
+              <p className="text-black-700">
                 Monthly sprints, Smart India Hackathon, ICPC, Google Kickstart
-                with rewards, mentorship, and recognition for top performers.
+                with rewards, mentorship, and recognition for <br />top performers.
               </p>
               <Link
                 href="/service-details"
@@ -72,11 +72,11 @@ const OfferOne: React.FC = () => {
                 <i className="ph-bold ph-arrow-up-right" />
               </Link>
               <Image
-                width={419}
+                width={320}
                 height={250}
-                src="/assets/images/thumbs/offer-img2.png"
+                src="/assets/images/thumbs/offer-img2.jpg"
                 alt="Hackathons & Competitions"
-                className="tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1"
+                className="tw-duration-300  position-absolute rounded bottom-0 tw-end-0 z-n1"
               />
             </div>
           </div>
@@ -90,7 +90,7 @@ const OfferOne: React.FC = () => {
               <h4 className="splitTextStyleOne tw-mb-5 max-w-330-px">
                 Real-world Projects with NTC Incubation Support
               </h4>
-              <p className="text-neutral-700">
+              <p className="text-black-700 fw-700 mb-4">
                 Team-based projects solving real problems, presented in industry
                 exhibitions and research conferences.
               </p>
@@ -103,9 +103,9 @@ const OfferOne: React.FC = () => {
               <Image
                 width={327}
                 height={281}
-                src="/assets/images/thumbs/offer-img3.png"
+                src="/assets/images/thumbs/offer-img3.jpg"
                 alt="Project Development & Incubation"
-                className="tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1"
+                className="tw-duration-300 position-absolute rounded bottom-0 tw-end-0 z-n1"
               />
             </div>
           </div>
@@ -120,8 +120,8 @@ const OfferOne: React.FC = () => {
                 Contribute, Publish & Innovate
               </h4>
               <p className="text-neutral-700">
-                Students contribute to GitHub, IEEE papers, patents, and get
-                training on version control, collaboration, and publishing.
+                Students contribute to GitHub, <br />IEEE papers, patents, and get
+                training <br />on version control, collaboration, <br/>and publishing.
               </p>
               <Link
                 href="/service-details"
@@ -130,11 +130,11 @@ const OfferOne: React.FC = () => {
                 <i className="ph-bold ph-arrow-up-right" />
               </Link>
               <Image
-                width={447}
+                width={347}
                 height={222}
-                src="/assets/images/thumbs/offer-img4.png"
+                src="/assets/images/thumbs/offer-img3.jpeg"
                 alt="Open Source & Research"
-                className="tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1"
+                className="tw-duration-300 position-absolute bottom-0 rounded tw-end-0 z-n1"
               />
             </div>
           </div>

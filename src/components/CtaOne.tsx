@@ -12,7 +12,7 @@ const CtaOne: React.FC = () => {
                 <Image
                   width={581}
                   height={563}
-                  src='/assets/images/thumbs/model-img.png'
+                  src='/assets/images/thumbs/doubt.png'
                   alt='Model'
                 />
                 <Image

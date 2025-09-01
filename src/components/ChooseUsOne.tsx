@@ -14,15 +14,15 @@ const ChooseUsOne: React.FC = () => {
               <Image
                 width={488}
                 height={624}
-                src="/assets/images/thumbs/choose-us-img.png"
+                src="/assets/images/thumbs/choose-us-icon1.jpg"
                 alt="CodSoc Image"
                 className="w-100 h-100 object-fit-cover tw-rounded-3xl"
               />
               <div className="bg-white max-w-150-px tw-h-150-px w-100 d-flex justify-content-center align-items-center tw-rounded-xl common-shadow-four box position-absolute tw-start-0 top-0 tw-mt-705 z-1">
                 <Image
-                  width={47}
-                  height={71}
-                  src="/assets/images/thumbs/choose-us-icon1.png"
+                  width={80}
+                  height={80}
+                  src="/assets/images/thumbs/choose-us-img.jpg"
                   alt="Coding"
                 />
               </div>
@@ -30,7 +30,7 @@ const ChooseUsOne: React.FC = () => {
                 <Image
                   width={67}
                   height={70}
-                  src="/assets/images/thumbs/choose-us-icon2.png"
+                  src="/assets/images/thumbs/choose-us-icon1.jpg"
                   alt="Hackathon"
                 />
               </div>
@@ -38,7 +38,7 @@ const ChooseUsOne: React.FC = () => {
                 <Image
                   width={70}
                   height={70}
-                  src="/assets/images/thumbs/choose-us-icon3.png"
+                  src="/assets/images/thumbs/choose-us-icon1.jpg"
                   alt="Teamwork"
                 />
               </div>
@@ -46,7 +46,7 @@ const ChooseUsOne: React.FC = () => {
                 <Image
                   width={68}
                   height={58}
-                  src="/assets/images/thumbs/choose-us-icon4.png"
+                  src="/assets/images/thumbs/choose-us-icon1.jpg"
                   alt="Open Source"
                 />
               </div>

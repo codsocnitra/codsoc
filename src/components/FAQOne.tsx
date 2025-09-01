@@ -62,13 +62,14 @@ const WorkingProcess: React.FC = () => {
               data-aos-duration={800}
               data-aos-delay={index * 100}
             >
-              <div className="bg-white tw-p-205 tw-rounded-3xl text-center shadow-sm h-100 tw-flex tw-flex-col tw-items-center tw-gap-4">
+              <div className="bg-white tw-p-205 tw-rounded-3xl text-center shadow-sm h-100 tw-flex tw-flex-col tw-items-center tw-gap-4 
+                transition-transform duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-105">
                 <Image
                   width={100}
                   height={100}
                   src={step.img}
                   alt={step.title}
-                  className="tw-rounded-xl object-contain"
+                  className="tw-rounded-xl object-contain transition-transform duration-300 group-hover:scale-110"
                 />
                 <h5 className="fw-semibold">{step.title}</h5>
                 <p className="text-neutral-600">{step.content}</p>

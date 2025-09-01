@@ -190,7 +190,23 @@ const HeaderOne: React.FC = () => {
                 <i className='ph ph-list' />
               </button>
             </div>
+
+            <div className='logo pt-2' >
+              <Link
+                href='/'
+                className='link hover--translate-y-1 active--translate-y-scale-9'
+              >
+                <Image
+                  src='/assets/images/logo/logo1.png'
+                  alt='Logo'
+                  className='max-w-200-px'
+                  width={150}
+                  height={30}
+                />
+              </Link>
+            </div>
             {/* Header Right End  */}
+
           </nav>
         </div>
       </header>

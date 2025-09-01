@@ -9,7 +9,7 @@ const ProjectShowcase: React.FC = () => {
       description:
         "An automated video editing tool using OpenAI Whisper + OpenCV to transcribe and auto-cut content smartly.",
       bgColor: "bg-pink-dark",
-      textColor: "text-white-50",
+      textColor: "text-black-600",
       link: "/project-details",
       image: {
         src: "/assets/images/thumbs/project1.png",
@@ -24,7 +24,7 @@ const ProjectShowcase: React.FC = () => {
       description:
         "Academic & placement preparation platform for NTC students with curated resources, mock tests, and mentorship.",
       bgColor: "bg-purple-light",
-      textColor: "text-neutral-700",
+      textColor: "text-black-700",
       link: "/project-details",
       image: {
         src: "/assets/images/thumbs/project2.png",
@@ -39,7 +39,7 @@ const ProjectShowcase: React.FC = () => {
       description:
         "A smart local discovery platform helping students explore shops, food spots, and services around NTC.",
       bgColor: "bg-main-50",
-      textColor: "text-neutral-700",
+      textColor: "text-black-700",
       link: "/project-details",
       image: {
         src: "/assets/images/thumbs/project3.png",
@@ -54,7 +54,7 @@ const ProjectShowcase: React.FC = () => {
       description:
         "Digital Udaan – Smart classroom management system. IoT Milk Pan – kitchen innovation preventing milk spill.",
       bgColor: "bg-paste-light",
-      textColor: "text-neutral-700",
+      textColor: "text-black-700",
       link: "/project-details",
       image: {
         src: "/assets/images/thumbs/project4.png",
@@ -80,7 +80,7 @@ const ProjectShowcase: React.FC = () => {
               </h3>
             </div>
             <p className="splitTextStyleOne text-neutral-500 max-w-500-px">
-              From AI tools to IoT innovations, our projects highlight creativity, 
+              From AI tools to IoT innovations, our projects highlight creativity,
               teamwork, and impactful solutions developed by NTC students.
             </p>
           </div>
@@ -96,29 +96,38 @@ const ProjectShowcase: React.FC = () => {
               data-aos-duration={600}
             >
               <div
-                className={`group-item position-relative tw-rounded-3xl overflow-hidden z-1 h-100 tw-pt-15 ${project.bgColor} tw-px-40-px tw-pb-84-px tw-duration-300`}
+                className={`group-item relative tw-rounded-3xl overflow-hidden z-1 h-100 tw-pt-15 ${project.bgColor} tw-px-40-px tw-pb-84-px tw-duration-300`}
               >
-                <span className="tw-text-base fw-semibold tw-mb-2">
-                  {project.category}
-                </span>
-                <h4 className="splitTextStyleOne tw-mb-5 max-w-330-px">
-                  {project.title}
-                </h4>
-                <p className={project.textColor}>{project.description}</p>
+                <div className="relative z-10">
+                  <span className="tw-text-base fw-semibold tw-mb-2 block">
+                    {project.category}
+                  </span>
+                  <h4 className="splitTextStyleOne tw-mb-5 max-w-330-px">
+                    {project.title}
+                  </h4>
 
-                <Link
-                  href={project.link}
-                  className="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1"
-                >
-                  <i className="ph-bold ph-arrow-up-right" />
-                </Link>
+                  {/* BLUR GLASS BOX */}
+                  <div className="mt-4 tw-rounded-2xl bg-white/20 backdrop-blur-md p-4 border border-white/30 shadow-lg hover:shadow-xl transition-all duration-300">
+                    <p className={`${project.textColor} tw-text-sm leading-relaxed`}>
+                      {project.description}
+                    </p>
+                  </div>
 
+                  <Link
+                    href={project.link}
+                    className="mt-5 tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 transition-all duration-300 shadow-md"
+                  >
+                    <i className="ph-bold ph-arrow-up-right" />
+                  </Link>
+                </div>
+
+                {/* Background Project Image */}
                 <Image
                   width={project.image.width}
                   height={project.image.height}
                   src={project.image.src}
                   alt={project.image.alt}
-                  className="tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1"
+                  className="tw-duration-300 absolute bottom-0 tw-end-0 z-0 opacity-80 border-4 border-white rounded-2xl shadow-lg"
                 />
               </div>
             </div>

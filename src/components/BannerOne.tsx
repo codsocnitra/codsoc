@@ -52,10 +52,7 @@ const BannerOne: React.FC = () => {
                 </Link>
               </div>
 
-              {/* Tagline */}
-              <p className="fw-medium tw-text-sm text-neutral-600 tw-mt-6">
-                “Code. Collaborate. Conquer.”
-              </p>
+
             </div>
           </div>
 
@@ -66,11 +63,12 @@ const BannerOne: React.FC = () => {
                 <Image
                   width={500}
                   height={600}
-                  src="/assets/images/thumbs/banner-img.png"
+                  src="/assets/images/thumbs/banner-img.jpg"
                   alt="CodSoc Hero"
                   data-aos="zoom-in"
                   data-aos-anchor-placement="top-bottom"
                   data-aos-duration={1000}
+                  className="rounded"
                 />
               </div>
 
