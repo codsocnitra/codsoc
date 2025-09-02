@@ -141,20 +141,11 @@ const FooterOne: React.FC = () => {
                     height={30}
                     src='/assets/images/logo/logo.jpg'
                     alt='tech'
+                    style={{ borderRadius: "50%" }}
                   />
                 </Link>
                 {/* FooterSearchFormOne */}
                 <FooterSearchFormOne />
-                <p className='text-neutral-500 fw-semibold tw-mt-9'>
-                  By subscribing, you're accept{" "}
-                  <Link
-                    href='#'
-                    className='text-white text-decoration-underline hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9'
-                  >
-                    {" "}
-                    Privacy Policy
-                  </Link>
-                </p>
               </div>
             </div>
             <div
@@ -163,16 +154,8 @@ const FooterOne: React.FC = () => {
               data-aos-duration={800}
             >
               <div>
-                <h5 className='fw-medium text--white tw-mb-8'>My account</h5>
+                <h5 className='fw-medium text--white tw-mb-8'>Supports</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
-                  <li>
-                    <Link
-                      href='#'
-                      className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
-                    >
-                      Forum Support
-                    </Link>
-                  </li>
                   <li>
                     <Link
                       href='#'
@@ -186,7 +169,7 @@ const FooterOne: React.FC = () => {
                       href='/contact'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
-                      Contact Us
+                      Connect Us
                     </Link>
                   </li>
                   {/* <li>
@@ -313,7 +296,7 @@ const FooterOne: React.FC = () => {
                       href='tel:+880(123)45688'
                       className='d-block mb-1 tw-text-2xl text-white hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9'
                     >
-                      +91 76520 93805
+                      +91 34322 44344
                     </a>
                   </div>
                 </div>

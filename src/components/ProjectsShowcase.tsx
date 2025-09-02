@@ -35,7 +35,7 @@ const ProjectShowcase: React.FC = () => {
     },
     {
       category: "Smart Discovery",
-      title: "KhojPoint",
+      title: "Remote Jobs",
       description:
         "A smart local discovery platform helping students explore shops, food spots, and services around NTC.",
       bgColor: "bg-main-50",
@@ -45,7 +45,7 @@ const ProjectShowcase: React.FC = () => {
         src: "/assets/images/thumbs/project3.png",
         width: 380,
         height: 250,
-        alt: "KhojPoint",
+        alt: "Remote Jobs",
       },
     },
     {

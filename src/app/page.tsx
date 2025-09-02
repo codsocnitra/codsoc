@@ -51,7 +51,7 @@ const Page: React.FC = () => {
       <CustomCursor />
 
       {/* Top Header One */}
-      {/* <TopHeaderOne /> */}
+      <TopHeaderOne />
 
       {/* HeaderOne */}
       <HeaderOne />

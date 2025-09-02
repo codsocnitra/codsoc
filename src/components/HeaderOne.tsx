@@ -48,7 +48,7 @@ const HeaderOne: React.FC = () => {
         // { label: "Integration Details", href: "/intigration-details" },
         { label: "Privacy Policy", href: "/policy-privacy" },
         { label: "FAQ", href: "/faq" },
-        { label: "Project Details", href: "/project-details" },
+        // { label: "Project Details", href: "/project-details" },
         // { label: "Service Details", href: "/service-details" },
       ],
     },
@@ -61,13 +61,13 @@ const HeaderOne: React.FC = () => {
     //     { label: "Checkout", href: "/checkout" },
     //   ],
     // },
-    {
-      label: "Blog",
-      children: [
-        { label: "Blog", href: "/blog" },
-        { label: "Blog Details", href: "/blog-details" },
-      ],
-    },
+    // {
+    //   label: "Blog",
+    //   children: [
+    //     { label: "Blog", href: "/blog" },
+    //     { label: "Blog Details", href: "/blog-details" },
+    //   ],
+    // },
     { label: "Contact", href: "/contact" },
     {
       label: "Call to Action",
@@ -107,7 +107,7 @@ const HeaderOne: React.FC = () => {
                   src='/assets/images/logo/logo.jpg'
                   alt='Logo'
                   className='max-w-200-px'
-                  width={150}
+                  width={100}
                   height={30}
                 />
               </Link>
@@ -200,7 +200,7 @@ const HeaderOne: React.FC = () => {
                   src='/assets/images/logo/logo1.png'
                   alt='Logo'
                   className='max-w-200-px'
-                  width={150}
+                  width={100}
                   height={30}
                 />
               </Link>

@@ -15,18 +15,25 @@ const ImpactAchievements: React.FC = () => {
   return (
     <section className="impact py-20">
       <div className="container">
-        <div className="bg-white common-shadow-five py-16 px-10 rounded-2xl">
+        <div className="common-shadow-five py-16 px-10 rounded-2xl">
           <span className="line w-20 h-1 bg-main-600 block mb-6" />
-          <h2 className="text-3xl font-bold mb-12 text-center">
+          <h2 className="text-3xl font-bold mb-4 text-center">
             Impact & Achievements
           </h2>
 
           {/* Row based layout */}
-          <div className="flex flex-wrap justify-center gap-8">
+          <div style={{
+            display: "flex",
+            flexWrap: "wrap",
+            flexDirection: "row",
+            gap: 8,
+            justifyContent: "center",
+            minWidth: "800px",
+          }}>
             {stats.map((item, index) => (
               <div
                 key={index}
-                className="w-[280px] p-6 border rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 group text-center"
+                className="w-[500px] p-4 rounded border rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 group text-center"
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
               >

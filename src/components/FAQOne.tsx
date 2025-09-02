@@ -8,25 +8,25 @@ const WorkingProcess: React.FC = () => {
       title: "Learn",
       content:
         "Fundamentals of coding, advanced algorithms, and trending technologies. Weekly sessions, workshops, and curated learning paths.",
-      img: "/assets/images/process/learn.png",
+      img: "/assets/images/process/learn.webp",
     },
     {
       title: "Build",
       content:
         "Apply knowledge in real-world projects. Hackathons, innovation challenges, and open-source collaborations.",
-      img: "/assets/images/process/build.png",
+      img: "/assets/images/process/build.webp",
     },
     {
       title: "Share",
       content:
         "Showcase projects on GitHub, LinkedIn, and coding platforms. Peer-to-peer teaching and mentoring for juniors.",
-      img: "/assets/images/process/share.png",
+      img: "/assets/images/process/share.jpg",
     },
     {
       title: "Grow",
       content:
         "Leadership opportunities within CodSoc’25. Placements, internships, and networking with tech companies.",
-      img: "/assets/images/process/grow.png",
+      img: "/assets/images/process/grow.jpg",
     },
   ];
 
@@ -36,7 +36,7 @@ const WorkingProcess: React.FC = () => {
       <Image
         width={1919}
         height={1032}
-        src="/assets/images/shapes/faq-bg.png"
+        src="/assets/images/process/bg.jpg"
         alt="background"
         className="position-absolute tw-start-0 top-0 w-100 h-100 z-n1"
       />
@@ -44,10 +44,10 @@ const WorkingProcess: React.FC = () => {
       <div className="container">
         {/* Heading */}
         <div className="tw-mb-8 text-center">
-          <span className="tw-py-1 tw-px-705 bg-white text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">
+          <span className="tw-py-4 tw-px-705 bg-white text-black tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">
             How We Work
           </span>
-          <h3 className="splitTextStyleOne fw-semibold tw-leading-104">
+          <h3 className="splitTextStyleOne fw-semibold text-white tw-leading-104">
             Our Working Process
           </h3>
         </div>

@@ -46,11 +46,13 @@ const BannerOne: React.FC = () => {
                 </Link>
                 <Link
                   href="#events"
-                  className="btn btn-outline-main d-sm-inline-flex align-items-center justify-content-center tw-gap-5 fw-semibold rounded-pill tw-px-56-px tw-py-5"
+                  className="btn d-sm-inline-flex align-items-center justify-content-center tw-gap-5 fw-semibold rounded-pill tw-px-56-px tw-py-5 "
+                  style={{ border: "1px solid #232eccff", color: "#232eccff", marginLeft: "16px" }}
                 >
                   Explore Events
                 </Link>
               </div>
+
 
 
             </div>

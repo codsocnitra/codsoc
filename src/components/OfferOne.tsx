@@ -72,8 +72,8 @@ const OfferOne: React.FC = () => {
                 <i className="ph-bold ph-arrow-up-right" />
               </Link>
               <Image
-                width={320}
-                height={250}
+                width={380}
+                height={371}
                 src="/assets/images/thumbs/offer-img2.jpg"
                 alt="Hackathons & Competitions"
                 className="tw-duration-300  position-absolute rounded bottom-0 tw-end-0 z-n1"
@@ -101,9 +101,9 @@ const OfferOne: React.FC = () => {
                 <i className="ph-bold ph-arrow-up-right" />
               </Link>
               <Image
-                width={327}
-                height={281}
-                src="/assets/images/thumbs/offer-img3.jpg"
+                width={347}
+                height={371}
+                src="/assets/images/thumbs/offer-img4.jpg"
                 alt="Project Development & Incubation"
                 className="tw-duration-300 position-absolute rounded bottom-0 tw-end-0 z-n1"
               />
@@ -113,7 +113,7 @@ const OfferOne: React.FC = () => {
           {/* 4. Open Source & Research */}
           <div className="col-lg-6" data-aos="fade-up" data-aos-duration={600}>
             <div className="group-item position-relative tw-rounded-3xl overflow-hidden z-1 h-100 tw-pt-15 bg-paste-light tw-px-40-px tw-pb-84-px tw-duration-300">
-              <span className="tw-text-base fw-semibold tw-mb-2 text-pink">
+              <span className="tw-text-base fw-semibold tw-mb-2 text-green">
                 Open Source & Research
               </span>
               <h4 className="splitTextStyleOne tw-mb-5 max-w-330-px">
@@ -121,7 +121,7 @@ const OfferOne: React.FC = () => {
               </h4>
               <p className="text-neutral-700">
                 Students contribute to GitHub, <br />IEEE papers, patents, and get
-                training <br />on version control, collaboration, <br/>and publishing.
+                training <br />on version control, collaboration, <br />and publishing.
               </p>
               <Link
                 href="/service-details"
@@ -131,8 +131,8 @@ const OfferOne: React.FC = () => {
               </Link>
               <Image
                 width={347}
-                height={222}
-                src="/assets/images/thumbs/offer-img3.jpeg"
+                height={371}
+                src="/assets/images/thumbs/offer-img3.jpg"
                 alt="Open Source & Research"
                 className="tw-duration-300 position-absolute bottom-0 rounded tw-end-0 z-n1"
               />
