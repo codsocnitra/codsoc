@@ -37,7 +37,7 @@ const OfferOne: React.FC = () => {
                 conducted by <br />faculty mentors, alumni, and industry<br /> experts.
               </p>
               <Link
-                href="/service-details"
+                href="/"
                 className="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1"
               >
                 <i className="ph-bold ph-arrow-up-right" />
@@ -66,7 +66,7 @@ const OfferOne: React.FC = () => {
                 with rewards, mentorship, and recognition for <br />top performers.
               </p>
               <Link
-                href="/service-details"
+                href="/"
                 className="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1"
               >
                 <i className="ph-bold ph-arrow-up-right" />
@@ -95,7 +95,7 @@ const OfferOne: React.FC = () => {
                 exhibitions and research conferences.
               </p>
               <Link
-                href="/service-details"
+                href="/"
                 className="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-main-600 text-white tw-text-2xl hover-text-white hover--translate-y-1"
               >
                 <i className="ph-bold ph-arrow-up-right" />
@@ -124,7 +124,7 @@ const OfferOne: React.FC = () => {
                 training <br />on version control, collaboration, <br />and publishing.
               </p>
               <Link
-                href="/service-details"
+                href="/"
                 className="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-paste tw-text-2xl text-white hover--translate-y-1"
               >
                 <i className="ph-bold ph-arrow-up-right" />

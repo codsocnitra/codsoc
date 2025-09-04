@@ -26,7 +26,7 @@ const ContactInner: React.FC = () => {
                   </h5>
                   <div className='max-w-250-px mx-auto'>
                     <p className='group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne'>
-                      Nitra Technical Campus, P - Block Sanjay Nagar Raj Nagar Sector - 23, Ghaziabad
+                      NITRA Technical Campus, P - Block Sanjay Nagar Raj Nagar Sector - 23, Ghaziabad
                     </p>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ const ContactInner: React.FC = () => {
                     <div>
                       <h6 className='tw-mb-4'>Location</h6>
                       <p className='text-neutral-600'>
-                        Nitra Technical Campus, P - Block Sanjay Nagar Raj Nagar Sector - 23, Ghaziabad
+                        NITRA Technical Campus, P - Block Sanjay Nagar Raj Nagar Sector - 23, Ghaziabad
                       </p>
                     </div>
                   </div>
@@ -172,7 +172,7 @@ const ContactInner: React.FC = () => {
                       <ul className='d-flex align-items-center tw-gap-3 justify-content-center tw-mt-6'>
                         <li>
                           <Link
-                            href='https://www.facebook.com'
+                            href="https://www.facebook.com/profile.php?id=61580013342727"
                             className='tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                           >
                             <i className='ph ph-facebook-logo' />
@@ -180,7 +180,7 @@ const ContactInner: React.FC = () => {
                         </li>
                         <li>
                           <Link
-                            href='https://www.twitter.com'
+                            href="https://x.com/cods_oc"
                             className='tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                           >
                             <i className='ph ph-x-logo' />
@@ -188,7 +188,7 @@ const ContactInner: React.FC = () => {
                         </li>
                         <li>
                           <Link
-                            href='https://www.instagram.com'
+                            href="https://www.instagram.com/cod.soc25?igsh=MWlmeHZhYm9ybW13cA=="
                             className='tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                           >
                             <i className='ph ph-instagram-logo' />
@@ -196,10 +196,10 @@ const ContactInner: React.FC = () => {
                         </li>
                         <li>
                           <Link
-                            href='https://www.youtube.com'
+                            href="https://www.linkedin.com/in/cod-soc-ab5241382/"
                             className='tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                           >
-                            <i className='ph ph-youtube-logo' />
+                            <i className='ph ph-linkedin-logo' /> 
                           </Link>
                         </li>
                       </ul>

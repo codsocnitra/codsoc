@@ -33,41 +33,17 @@ const HeaderOne: React.FC = () => {
       label: "Home",
       children: [
         { label: "Home", href: "/" },
-        // { label: "Web Hosting", href: "/demo-2" },
-        // { label: "Task Management", href: "/demo-3" },
-        // { label: "CRM Software", href: "/demo-4" },
-        // { label: "App Landing", href: "/demo-5" },
+
       ],
     },
     {
       label: "Pages",
       children: [
-        // { label: "Pricing", href: "/pricing-plan" },
-        { label: "About Us", href: "/about" },
-        // { label: "App Integration", href: "/app-intigration" },
-        // { label: "Integration Details", href: "/intigration-details" },
-        { label: "Privacy Policy", href: "/policy-privacy" },
-        { label: "FAQ", href: "/faq" },
-        // { label: "Project Details", href: "/project-details" },
-        // { label: "Service Details", href: "/service-details" },
+        { label: "Privacy Policy", href: "#" },
+        { label: "FAQ", href: "##" },
       ],
     },
-    // {
-    //   label: "Shop",
-    //   children: [
-    //     { label: "Shop", href: "/shop" },
-    //     { label: "Shop Details", href: "/shop-details" },
-    //     { label: "Cart", href: "/cart" },
-    //     { label: "Checkout", href: "/checkout" },
-    //   ],
-    // },
-    // {
-    //   label: "Blog",
-    //   children: [
-    //     { label: "Blog", href: "/blog" },
-    //     { label: "Blog Details", href: "/blog-details" },
-    //   ],
-    // },
+    { label: "About Us", href: "/about" },
     { label: "Contact", href: "/contact" },
     {
       label: "Call to Action",

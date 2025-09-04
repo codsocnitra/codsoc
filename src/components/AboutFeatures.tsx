@@ -12,7 +12,7 @@ const AboutFeatures: React.FC = () => {
               We aim to
             </h3>
             <p>
-              CodSoc’25 was founded in 2025 as the official coding and innovation society of Nitra Technical Campus (NTC), Ghaziabad.
+              CodSoc’25 was founded in 2025 as the official coding and innovation society of NITRA Technical Campus (NTC), Ghaziabad.
             </p>
           </div>
           <div

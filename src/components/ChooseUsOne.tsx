@@ -84,14 +84,6 @@ const ChooseUsOne: React.FC = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="col-md-6" data-aos="fade-up" data-aos-duration={900}>
-                    <div className="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-2 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
-                      <h6 className="tw-mb-2">📚 Mentorship</h6>
-                      <p className="text-neutral-500">
-                        Learn with guidance from faculty mentors and alumni.
-                      </p>
-                    </div>
-                  </div>
                   <div className="col-md-6" data-aos="fade-up" data-aos-duration={700}>
                     <div className="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-2 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
                       <h6 className="tw-mb-2">🎯 Industry-Level Exposure</h6>
@@ -108,20 +100,11 @@ const ChooseUsOne: React.FC = () => {
                       </p>
                     </div>
                   </div>
-
                   <div className="col-md-6" data-aos="fade-up" data-aos-duration={1000}>
                     <div className="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-2 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
                       <h6 className="tw-mb-2">🌍 Open Source Contribution</h6>
                       <p className="text-neutral-500">
                         Collaborate on live GitHub projects and repositories.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6" data-aos="fade-up" data-aos-duration={1100}>
-                    <div className="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-2 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
-                      <h6 className="tw-mb-2">🏆 Recognition & Career Edge</h6>
-                      <p className="text-neutral-500">
-                        Earn certificates, badges & placement advantages.
                       </p>
                     </div>
                   </div>

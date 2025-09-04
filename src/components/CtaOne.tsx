@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CtaOne: React.FC = () => {
   return (
-    <section className='cta py-md-0 py-5'>
+    <section className='cta py-md-0 py-5 mt-5'>
       <div className='container'>
         <div className='row gy-4 align-items-center'>
           <div className='col-md-6 d-md-block d-none'>
@@ -40,7 +40,7 @@ const CtaOne: React.FC = () => {
                 Leave your contacts and feel  free to consultation from
               </p>
               <Link
-                href='/register'
+                href='https://www.linkedin.com/in/cod-soc-ab5241382/'
                 className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-0 tw-py-5 w-100 tw-mt-10'
                 data-aos='fade-up'
                 data-aos-anchor-placement='top-bottom'

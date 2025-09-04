@@ -8,25 +8,25 @@ const WorkingProcess: React.FC = () => {
       title: "Learn",
       content:
         "Fundamentals of coding, advanced algorithms, and trending technologies. Weekly sessions, workshops, and curated learning paths.",
-      img: "/assets/images/process/learn.webp",
+      img: "/assets/images/process/google.png",
     },
     {
       title: "Build",
       content:
         "Apply knowledge in real-world projects. Hackathons, innovation challenges, and open-source collaborations.",
-      img: "/assets/images/process/build.webp",
+      img: "/assets/images/process/build.png",
     },
     {
       title: "Share",
       content:
         "Showcase projects on GitHub, LinkedIn, and coding platforms. Peer-to-peer teaching and mentoring for juniors.",
-      img: "/assets/images/process/share.jpg",
+      img: "/assets/images/process/share.png",
     },
     {
       title: "Grow",
       content:
         "Leadership opportunities within CodSoc’25. Placements, internships, and networking with tech companies.",
-      img: "/assets/images/process/grow.jpg",
+      img: "/assets/images/process/grow.png",
     },
   ];
 
@@ -65,8 +65,8 @@ const WorkingProcess: React.FC = () => {
               <div className="bg-white tw-p-205 tw-rounded-3xl text-center shadow-sm h-100 tw-flex tw-flex-col tw-items-center tw-gap-4 
                 transition-transform duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-105">
                 <Image
-                  width={100}
-                  height={100}
+                  width={40}
+                  height={40}
                   src={step.img}
                   alt={step.title}
                   className="tw-rounded-xl object-contain transition-transform duration-300 group-hover:scale-110"

@@ -10,7 +10,7 @@ const ProjectShowcase: React.FC = () => {
         "An automated video editing tool using OpenAI Whisper + OpenCV to transcribe and auto-cut content smartly.",
       bgColor: "bg-pink-dark",
       textColor: "text-black-600",
-      link: "/project-details",
+      link: "/",
       image: {
         src: "/assets/images/thumbs/project1.png",
         width: 447,
@@ -25,42 +25,12 @@ const ProjectShowcase: React.FC = () => {
         "Academic & placement preparation platform for NTC students with curated resources, mock tests, and mentorship.",
       bgColor: "bg-purple-light",
       textColor: "text-black-700",
-      link: "/project-details",
+      link: "/",
       image: {
         src: "/assets/images/thumbs/project2.png",
         width: 420,
         height: 240,
         alt: "NitraPrep",
-      },
-    },
-    {
-      category: "Smart Discovery",
-      title: "Remote Jobs",
-      description:
-        "A smart local discovery platform helping students explore shops, food spots, and services around NTC.",
-      bgColor: "bg-main-50",
-      textColor: "text-black-700",
-      link: "/project-details",
-      image: {
-        src: "/assets/images/thumbs/project3.png",
-        width: 380,
-        height: 250,
-        alt: "Remote Jobs",
-      },
-    },
-    {
-      category: "EdTech + IoT",
-      title: "Digital Udaan & IoT Milk Pan",
-      description:
-        "Digital Udaan – Smart classroom management system. IoT Milk Pan – kitchen innovation preventing milk spill.",
-      bgColor: "bg-paste-light",
-      textColor: "text-black-700",
-      link: "/project-details",
-      image: {
-        src: "/assets/images/thumbs/project4.png",
-        width: 420,
-        height: 230,
-        alt: "Digital Udaan & IoT Milk Pan",
       },
     },
   ];
@@ -127,7 +97,8 @@ const ProjectShowcase: React.FC = () => {
                   height={project.image.height}
                   src={project.image.src}
                   alt={project.image.alt}
-                  className="tw-duration-300 absolute bottom-0 tw-end-0 z-0 opacity-80 border-4 border-white rounded-2xl shadow-lg"
+                  className="tw-duration-300 absolute bottom-0 tw-end-0 z-0 opacity-80 border-4 border-white  shadow-lg"
+                  style={{ borderRadius: "12px" }}
                 />
               </div>
             </div>

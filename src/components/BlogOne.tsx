@@ -13,7 +13,7 @@ const ImpactAchievements: React.FC = () => {
   ];
 
   return (
-    <section className="impact py-20">
+    <section className="impact bg-white py-20">
       <div className="container">
         <div className="common-shadow-five py-16 px-10 rounded-2xl">
           <span className="line w-20 h-1 bg-main-600 block mb-6" />

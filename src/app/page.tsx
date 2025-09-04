@@ -23,13 +23,13 @@ const ShowCaseOne = dynamic(() => import("../components/ShowCaseOne"));
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: "Home | CodSoc'25 - Official Coding Society of Nitra Technical Campus",
+    title: "Home | CodSoc'25 - Official Coding Society of NITRA Technical Campus",
     description:
       "Learn more about our SaaS software, team, features, and IT solutions.",
     openGraph: {
       title: "Home | CodSoc'25",
       description:
-        "CodSoc’25 – Official Coding Society of Nitra Technical Campus",
+        "CodSoc’25 – Official Coding Society of NITRA Technical Campus",
       url: "https://nextjs.sasstech.webnextpro.com/about",
       type: "website",
       images: [

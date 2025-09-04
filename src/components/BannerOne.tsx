@@ -31,7 +31,7 @@ const BannerOne: React.FC = () => {
               {/* Subheadline */}
               <p className="text-neutral-500 tw-text-lg max-w-500-px fw-medium tw-mt-8 splitTextStyleOne">
                 Welcome to <span className="fw-semibold">CodSoc’25</span>, the
-                official Coding Society of Nitra Technical Campus. Our mission
+                official Coding Society of NITRA Technical Campus. Our mission
                 is to empower students with the skills, opportunities, and
                 confidence to thrive in the digital era.
               </p>
@@ -39,13 +39,13 @@ const BannerOne: React.FC = () => {
               {/* CTA Buttons */}
               <div className="tw-mt-11 d-flex align-items-center tw-gap-20 flex-wrap">
                 <Link
-                  href="#join"
+                  href="#"
                   className="btn btn-main hover-style-one d-sm-inline-flex align-items-center justify-content-center tw-gap-5 fw-semibold rounded-pill tw-px-56-px tw-py-5"
                 >
                   Join the Society
                 </Link>
                 <Link
-                  href="#events"
+                  href="#"
                   className="btn d-sm-inline-flex align-items-center justify-content-center tw-gap-5 fw-semibold rounded-pill tw-px-56-px tw-py-5 "
                   style={{ border: "1px solid #232eccff", color: "#232eccff", marginLeft: "16px" }}
                 >

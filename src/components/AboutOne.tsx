@@ -48,7 +48,7 @@ const AboutOne: React.FC = () => {
                           <span>NTC</span>
                         </h6>
                         <p className="fw-medium tw-text-sm text-neutral-500">
-                          Nitra Technical Campus
+                          NITRA Technical Campus
                         </p>
                       </div>
                     </div>
@@ -109,7 +109,7 @@ const AboutOne: React.FC = () => {
 
                 <p className="text-neutral-600 tw-mb-6">
                   CodSoc’25 was founded in 2025 as the official coding and innovation society of
-                  <strong> Nitra Technical Campus (NTC), Ghaziabad</strong>.
+                  <strong> NITRA Technical Campus (NTC), Ghaziabad</strong>.
                 </p>
 
                 <ul className="d-flex flex-column tw-gap-6">

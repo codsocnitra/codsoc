@@ -53,11 +53,6 @@ const Page: React.FC = () => {
         {/* ContactInner */}
         <ContactInner />
 
-        {/* TaskManagementOne */}
-        {/* <TaskManagementOne /> */}
-
-        {/* FooterThree */}
-        {/* <FooterThree /> */}
         <FooterOne />
       </section>
     </AOSWrap>
