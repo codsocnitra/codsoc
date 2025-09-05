@@ -77,16 +77,17 @@ const ContactInner: React.FC = () => {
                   </h5>
                   <div className='max-w-250-px mx-auto'>
                     <a
-                      href='mailto:email@example.com'
+                      href='mailto:contact@codsoc25.in'
                       className='group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne'
                     >
-                      info@codsoc25.in
+                      contact@codsoc25.in
                     </a>
                     <a
-                      href='mailto:info@yourdomain.com'
+                      href='mailto:grievance@codsoc.in'
                       className='group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne'
                     >
-                      codsoc25@nitra.ac.in
+                      grievance@codsoc25.in
+
                     </a>
                   </div>
                 </div>
@@ -123,7 +124,7 @@ const ContactInner: React.FC = () => {
                       </p>
                     </div>
                   </div>
-                  <div className='d-flex align-items-start tw-gap-6'>
+                  {/* <div className='d-flex align-items-start tw-gap-6'>
                     <span className='tw-text-3xl text-main-600 d-flex'>
                       <i className='ph-bold ph-phone' />
                     </span>
@@ -142,24 +143,24 @@ const ContactInner: React.FC = () => {
                         +91 (456) 896 22
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                   <div className='d-flex align-items-start tw-gap-6'>
                     <span className='tw-text-3xl text-main-600 d-flex'>
                       <i className='ph-bold ph-envelope-simple' />
                     </span>
                     <div>
-                      <h6 className='tw-mb-4'>Location</h6>
+                      <h6 className='tw-mb-4'>Email</h6>
                       <a
-                        href='mailto:wiatechinfo@gmail.com'
+                        href='mailto:contact@codsoc25.in'
                         className='text-neutral-600 hover-text-main-600'
                       >
-                        info@codsoc25.in
+                        contact@codsoc25.in
                       </a>
                       <a
-                        href='mailto:www.wiatech.com'
+                        href='mailto:grievance@codsoc25.in'
                         className='text-neutral-600 hover-text-main-600'
                       >
-                        codsoc25@nitra.ac.in
+                        grievance@codsoc25.in
                       </a>
                     </div>
                   </div>
@@ -199,7 +200,7 @@ const ContactInner: React.FC = () => {
                             href="https://www.linkedin.com/in/cod-soc-ab5241382/"
                             className='tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                           >
-                            <i className='ph ph-linkedin-logo' /> 
+                            <i className='ph ph-linkedin-logo' />
                           </Link>
                         </li>
                       </ul>

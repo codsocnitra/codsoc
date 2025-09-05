@@ -101,33 +101,15 @@ const FooterOne: React.FC = () => {
                   </div>
 
                   <div>
-                    <h5 className="fw-medium text-white tw-mt-10 tw-mb-6">
+                    <h5 className="fw-large text-white tw-mt-10 tw-mb-6">
                       Contact
                     </h5>
                     <a
-                      href="mailto:codsoc25@nitra.ac.in"
-                      className="text-neutral-400 hover--translate-y-1 active--translate-y-scale-9"
+                      href="mailto:contact@codsoc25.in"
+                      className="text-white hover--translate-y-1 active--translate-y-scale-9"
                     >
-                      codsoc25@nitra.ac.in
+                      contact@codsoc25.in
                     </a>
-                    <div className="d-flex align-items-center tw-gap-5 tw-mt-2">
-                      <span className="d-flex tw-text-3xl text-main-600">
-                        <Image
-                          width={22}
-                          height={22}
-                          src="/assets/images/icons/phone.svg"
-                          alt="phone"
-                        />
-                      </span>
-                      <div>
-                        <a
-                          href="tel:+913432244344"
-                          className="d-block mb-1 tw-text-2xl text-white hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9"
-                        >
-                          +91 34322 44344
-                        </a>
-                      </div>
-                    </div>
                   </div>
                 </div>
 
