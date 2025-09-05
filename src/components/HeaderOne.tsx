@@ -29,27 +29,15 @@ const HeaderOne: React.FC = () => {
   };
 
   const MENU = [
-    {
-      label: "Home",
-      children: [
-        { label: "Home", href: "/" },
-
-      ],
-    },
-    {
-      label: "Pages",
-      children: [
-        { label: "Privacy Policy", href: "#" },
-        { label: "FAQ", href: "##" },
-      ],
-    },
+    { label: "Home", href: "/" },
     { label: "About Us", href: "/about" },
+    { label: "Our Team", href: "/Team-members" },
     { label: "Contact", href: "/contact" },
     {
       label: "Call to Action",
       children: [
-        { label: "Join the society", href: "/#" },
-        { label: "Explore Events", href: "/" },
+        { label: "Join the society", href: "#" },
+        { label: "Explore Events", href: "###" },
       ],
     }
   ];

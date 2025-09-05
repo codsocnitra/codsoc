@@ -40,7 +40,7 @@ const CtaOne: React.FC = () => {
                 Leave your contacts and feel  free to consultation from
               </p>
               <Link
-                href='https://www.linkedin.com/in/cod-soc-ab5241382/'
+                href='/contact'
                 className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-0 tw-py-5 w-100 tw-mt-10'
                 data-aos='fade-up'
                 data-aos-anchor-placement='top-bottom'

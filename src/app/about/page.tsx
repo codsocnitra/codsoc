@@ -26,16 +26,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
       title: "About | SassTech",
       description:
         "Learn more about our SaaS software, team, features, and IT solutions.",
-      url: "https://nextjs.sasstech.webnextpro.com/about",
-      type: "website",
-      images: [
-        {
-          url: "https://nextjs.sasstech.webnextpro.com/images/meta.png",
-          width: 1200,
-          height: 630,
-          alt: "About SassTech",
-        },
-      ],
     },
   };
 };
