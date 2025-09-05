@@ -9,6 +9,7 @@ import AOSWrap from "../../helper/AOSWrap";
 import CustomCursor from "../../helper/CustomCursor";
 
 import type { Metadata } from "next";
+import FooterOne from "../../components/FooterOne";
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
@@ -52,11 +53,7 @@ const Page: React.FC = () => {
         {/* ContactInner */}
         <ContactInner />
 
-        {/* TaskManagementOne */}
-        <TaskManagementOne />
-
-        {/* FooterThree */}
-        <FooterThree />
+        <FooterOne />
       </section>
     </AOSWrap>
   );

@@ -14,6 +14,7 @@ import AboutBannerInner from "../../components/AboutBannerInner";
 
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
+import FooterOne from "../../components/FooterOne";
 const BrandThree = dynamic(() => import("../../components/BrandThree"));
 
 export const generateMetadata = async (): Promise<Metadata> => {
@@ -65,19 +66,20 @@ const Page: React.FC = () => {
         <AboutTeamInner />
 
         {/* TestimonialsOne */}
-        <TestimonialsOne />
+        {/* <TestimonialsOne /> */}
 
         {/* BrandThree */}
-        <BrandThree />
+        {/* <BrandThree /> */}
 
         {/* PricingPlanTwo */}
-        <PricingPlanTwo />
+        {/* <PricingPlanTwo /> */}
 
         {/* TaskManagementOne */}
-        <TaskManagementOne />
+        {/* <TaskManagementOne /> */}
 
         {/* FooterThree */}
-        <FooterThree />
+        {/* <FooterThree /> */}
+        <FooterOne />
       </section>
     </AOSWrap>
   );

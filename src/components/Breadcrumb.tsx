@@ -14,9 +14,9 @@ const Breadcrumb: React.FC<BreadcrumbProps> = ({ title }) => {
             <div className='text-center'>
               <span className='tw-mb-4'>
                 <Image
-                  width={52}
-                  height={32}
-                  src='/assets/images/logo/favicon-two.png'
+                  width={80}
+                  height={80}
+                  src='/assets/images/logo/logo.jpg'
                   alt='Favicon Two'
                 />
               </span>

@@ -225,7 +225,7 @@ const HeaderThree: React.FC = () => {
               <Image
                 width={150}
                 height={30}
-                src='/assets/images/logo/logo.png'
+                src='/assets/images/logo/logo.jpg'
                 alt='Logo'
               />
             </Link>
