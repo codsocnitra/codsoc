@@ -15,472 +15,238 @@ const AboutTeamInner: React.FC = () => {
             track of the progress of each why{" "}
           </p>
         </div>
-        <div className='row gy-4'>
-          <div
-            className='col-lg-3'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
+        <div className='row gy-4'><div
+            className="col-lg-3"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
             data-aos-duration={600}
           >
-            <div className='about-team group-item'>
-              <div className='position-relative tw-rounded-xl overflow-hidden'>
+            <div className="about-team group-item">
+              <div className="position-relative tw-rounded-xl overflow-hidden">
                 <Image
                   width={328}
                   height={432}
-                  src='/assets/images/thumbs/about-team-img1.png'
-                  alt='Thumb'
-                  className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
+                  src="/assets/images/thumbs/clubLead.png"
+                  alt="Thumb"
+                  className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
-                <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
+                <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href='https://www.facebook.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.facebook.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-facebook-logo' />
+                      <i className="ph-fill ph-facebook-logo" />
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href='https://www.twitter.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.twitter.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-twitter-logo' />
+                      <i className="ph-fill ph-twitter-logo" />
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href='https://www.instagram.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.instagram.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-instagram-logo' />
+                      <i className="ph-fill ph-instagram-logo" />
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href='https://www.pinterest.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.pinterest.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-pinterest-logo' />
+                      <i className="ph-fill ph-pinterest-logo" />
                     </Link>
                   </li>
                 </ul>
               </div>
-              <div className='tw-mt-705 text-center'>
-                <h6 className='tw-mb-2'>Siddharth Sharma</h6>
-                <span className='text-capitalize text-neutral-500 tw-text-sm'>
+              <div className="tw-mt-705 text-center">
+                <h6 className="tw-mb-2">Siddharth Sharma</h6>
+                <span className="text-capitalize text-neutral-500 tw-text-sm">
                   Club Lead
                 </span>
               </div>
             </div>
           </div>
           <div
-            className='col-lg-3'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={800}
+            className="col-lg-3"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration={1000}
           >
-            <div className='about-team group-item'>
-              <div className='position-relative tw-rounded-xl overflow-hidden'>
+            <div className="about-team group-item">
+              <div className="position-relative tw-rounded-xl overflow-hidden">
                 <Image
                   width={328}
                   height={432}
-                  src='/assets/images/thumbs/about-team-img2.jpg'
-                  alt='Thumb'
-                  className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
+                  src="/assets/images/thumbs/about-team-img.png"
+                  alt="Thumb"
+                  className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
-                <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
+                <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href='https://www.facebook.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.facebook.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-facebook-logo' />
+                      <i className="ph-fill ph-facebook-logo" />
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href='https://www.twitter.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.twitter.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-twitter-logo' />
+                      <i className="ph-fill ph-twitter-logo" />
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href='https://www.instagram.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.instagram.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-instagram-logo' />
+                      <i className="ph-fill ph-instagram-logo" />
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href='https://www.pinterest.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.pinterest.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-pinterest-logo' />
+                      <i className="ph-fill ph-pinterest-logo" />
                     </Link>
                   </li>
                 </ul>
               </div>
-              <div className='tw-mt-705 text-center'>
-                <h6 className='tw-mb-2'>Sarthak Singh</h6>
-                <span className='text-capitalize text-neutral-500 tw-text-sm'>
+              <div className="tw-mt-705 text-center">
+                <h6 className="tw-mb-2">Deepanshi Kashyap</h6>
+                <span className="text-capitalize text-neutral-500 tw-text-sm">
+                 Club Co-Lead
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-lg-3"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration={800}
+          >
+            <div className="about-team group-item">
+              <div className="position-relative tw-rounded-xl overflow-hidden">
+                <Image
+                  width={328}
+                  height={432}
+                  src="/assets/images/thumbs/technicalLead.png"
+                  alt="Thumb"
+                  className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
+                />
+                <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
+                  <li>
+                    <Link
+                      href="https://www.facebook.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
+                    >
+                      <i className="ph-fill ph-facebook-logo" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://www.twitter.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
+                    >
+                      <i className="ph-fill ph-twitter-logo" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://www.instagram.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
+                    >
+                      <i className="ph-fill ph-instagram-logo" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://www.pinterest.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
+                    >
+                      <i className="ph-fill ph-pinterest-logo" />
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="tw-mt-705 text-center">
+                <h6 className="tw-mb-2">Sarthak Singh</h6>
+                <span className="text-capitalize text-neutral-500 tw-text-sm">
                   Technical Lead
                 </span>
               </div>
             </div>
           </div>
           <div
-            className='col-lg-3'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={1000}
-          >
-            <div className='about-team group-item'>
-              <div className='position-relative tw-rounded-xl overflow-hidden'>
-                <Image
-                  width={328}
-                  height={432}
-                  src='/assets/images/thumbs/about-team-img3.jpg'
-                  alt='Thumb'
-                  className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
-                />
-                <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
-                  <li>
-                    <Link
-                      href='https://www.facebook.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-facebook-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.twitter.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-twitter-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.instagram.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-instagram-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.pinterest.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-pinterest-logo' />
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <div className='tw-mt-705 text-center'>
-                <h6 className='tw-mb-2'>Robiul Hasan</h6>
-                <span className='text-capitalize text-neutral-500 tw-text-sm'>
-                  creative director
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            className='col-lg-3'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
+            className="col-lg-3"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
             data-aos-duration={1200}
           >
-            <div className='about-team group-item'>
-              <div className='position-relative tw-rounded-xl overflow-hidden'>
+            <div className="about-team group-item">
+              <div className="position-relative tw-rounded-xl overflow-hidden">
                 <Image
                   width={328}
                   height={432}
-                  src='/assets/images/thumbs/about-team-img4.jpg'
-                  alt='Thumb'
-                  className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
+                  src="/assets/images/thumbs/about-team-img.png"
+                  alt="Thumb"
+                  className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
-                <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
+                <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href='https://www.facebook.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.facebook.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-facebook-logo' />
+                      <i className="ph-fill ph-facebook-logo" />
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href='https://www.twitter.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.twitter.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-twitter-logo' />
+                      <i className="ph-fill ph-twitter-logo" />
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href='https://www.instagram.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.instagram.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-instagram-logo' />
+                      <i className="ph-fill ph-instagram-logo" />
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href='https://www.pinterest.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
+                      href="https://www.pinterest.com"
+                      className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className='ph-fill ph-pinterest-logo' />
+                      <i className="ph-fill ph-pinterest-logo" />
                     </Link>
                   </li>
                 </ul>
               </div>
-              <div className='tw-mt-705 text-center'>
-                <h6 className='tw-mb-2'>John Smith</h6>
-                <span className='text-capitalize text-neutral-500 tw-text-sm'>
-                  creative director
+              <div className="tw-mt-705 text-center">
+                <h6 className="tw-mb-2">Aakanksha</h6>
+                <span className="text-capitalize text-neutral-500 tw-text-sm">
+                  Editorial Lead
                 </span>
               </div>
             </div>
-          </div>
-          <div
-            className='col-lg-3'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={600}
-          >
-            <div className='about-team group-item'>
-              <div className='position-relative tw-rounded-xl overflow-hidden'>
-                <Image
-                  width={328}
-                  height={432}
-                  src='/assets/images/thumbs/about-team-img1.png'
-                  alt='Thumb'
-                  className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
-                />
-                <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
-                  <li>
-                    <Link
-                      href='https://www.facebook.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-facebook-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.twitter.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-twitter-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.instagram.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-instagram-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.pinterest.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-pinterest-logo' />
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <div className='tw-mt-705 text-center'>
-                <h6 className='tw-mb-2'>Siddharth Sharma</h6>
-                <span className='text-capitalize text-neutral-500 tw-text-sm'>
-                  Club Lead
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            className='col-lg-3'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={800}
-          >
-            <div className='about-team group-item'>
-              <div className='position-relative tw-rounded-xl overflow-hidden'>
-                <Image
-                  width={328}
-                  height={432}
-                  src='/assets/images/thumbs/about-team-img2.jpg'
-                  alt='Thumb'
-                  className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
-                />
-                <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
-                  <li>
-                    <Link
-                      href='https://www.facebook.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-facebook-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.twitter.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-twitter-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.instagram.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-instagram-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.pinterest.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-pinterest-logo' />
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <div className='tw-mt-705 text-center'>
-                <h6 className='tw-mb-2'>Sarthak Singh</h6>
-                <span className='text-capitalize text-neutral-500 tw-text-sm'>
-                  creative director
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            className='col-lg-3'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={1000}
-          >
-            <div className='about-team group-item'>
-              <div className='position-relative tw-rounded-xl overflow-hidden'>
-                <Image
-                  width={328}
-                  height={432}
-                  src='/assets/images/thumbs/about-team-img3.jpg'
-                  alt='Thumb'
-                  className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
-                />
-                <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
-                  <li>
-                    <Link
-                      href='https://www.facebook.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-facebook-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.twitter.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-twitter-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.instagram.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-instagram-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.pinterest.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-pinterest-logo' />
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <div className='tw-mt-705 text-center'>
-                <h6 className='tw-mb-2'>Robiul Hasan</h6>
-                <span className='text-capitalize text-neutral-500 tw-text-sm'>
-                  creative director
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            className='col-lg-3'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={1200}
-          >
-            <div className='about-team group-item'>
-              <div className='position-relative tw-rounded-xl overflow-hidden'>
-                <Image
-                  width={328}
-                  height={432}
-                  src='/assets/images/thumbs/about-team-img4.jpg'
-                  alt='Thumb'
-                  className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
-                />
-                <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
-                  <li>
-                    <Link
-                      href='https://www.facebook.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-facebook-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.twitter.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-twitter-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.instagram.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-instagram-logo' />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='https://www.pinterest.com'
-                      className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
-                    >
-                      <i className='ph-fill ph-pinterest-logo' />
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <div className='tw-mt-705 text-center'>
-                <h6 className='tw-mb-2'>John Smith</h6>
-                <span className='text-capitalize text-neutral-500 tw-text-sm'>
-                  creative director
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
+          </div></div>
         <div className='text-center tw-mt-13'>
           <Link
             href='/Team-members'
