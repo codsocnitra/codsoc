@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://nextjs.sasstech.webnextpro.com/sitemap.xml',
+    sitemap: 'https://nextjs.codsoc25.webnextpro.com/sitemap.xml',
   }
 }

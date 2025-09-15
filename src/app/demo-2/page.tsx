@@ -22,21 +22,21 @@ const ServicesOne = dynamic(() => import("../../components/ServicesOne"));
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: "Home - 2 | SassTech - Saas Software and IT Solution",
+    title: "Home - 2 | codsoc25 - Saas Software and IT Solution",
     description:
       "Learn more about our SaaS software, team, features, and IT solutions.",
     openGraph: {
-      title: "About | SassTech",
+      title: "About | codsoc25",
       description:
         "Learn more about our SaaS software, team, features, and IT solutions.",
-      url: "https://nextjs.sasstech.webnextpro.com/about",
+      url: "https://nextjs.codsoc25.webnextpro.com/about",
       type: "website",
       images: [
         {
-          url: "https://nextjs.sasstech.webnextpro.com/images/meta.png",
+          url: "https://nextjs.codsoc25.webnextpro.com/images/meta.png",
           width: 1200,
           height: 630,
-          alt: "About SassTech",
+          alt: "About codsoc25",
         },
       ],
     },

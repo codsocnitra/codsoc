@@ -15,7 +15,7 @@ const DrivenSectionTwo: React.FC = () => {
           />
           <div className='max-w-780-px text-center mx-auto tw-mb-13'>
             <h3 className='splitTextStyleOne text-heading text-capitalize text-capitalize'>
-              Driven your business today next level by sasstech
+              Driven your business today next level by codsoc25
             </h3>
             <div className='d-grid d-md-flex align-items-center tw-gap-4 justify-content-center tw-mt-10'>
               <Link
