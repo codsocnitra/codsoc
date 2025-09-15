@@ -262,7 +262,7 @@ const AboutTwo: React.FC = () => {
                 hosting
               </div>
               <h2 className='splitTextStyleOne text-heading text-capitalize'>
-                codsoc25 makes you a better
+                CodSoc'25 makes you a better
                 <span className='font-dm-serif fst-italic fw-normal'>
                   {" "}
                   elevating

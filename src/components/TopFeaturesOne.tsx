@@ -26,7 +26,7 @@ const TopFeaturesOne: React.FC = () => {
                     width={18}
                     height={17}
                     src="/assets/images/icons/chart-icon.svg"
-                    alt="CodSoc25"
+                    alt="CodSoc'25"
                   />
                 </span>
                 <span className="text-heading fw-medium tw-text-base">

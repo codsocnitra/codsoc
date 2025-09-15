@@ -50,7 +50,7 @@ const BrandFive: React.FC = () => {
           <div className='text-center tw-mb-16'>
             <h5 className='mb-0 line-clamp-1'>
               Loved by next-gen B2B{" "}
-              <span className='text-gradient-teal'>SaaS</span> compnaies.....
+              <span className='text-gradient-teal'>CodSoc'25</span> compnaies.....
             </h5>
           </div>
           <div className='brand-three-slider swiper left-right-gradient gradient-width-200'>

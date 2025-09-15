@@ -105,10 +105,10 @@ const FooterOne: React.FC = () => {
                       Contact
                     </h5>
                     <a
-                      href="mailto:contact@codsoc25.in"
+                      href="mailto:contact@CodSoc'25.in"
                       className="text-white hover--translate-y-1 active--translate-y-scale-9"
                     >
-                      contact@codsoc25.in
+                      contact@CodSoc'25.in
                     </a>
                   </div>
                 </div>

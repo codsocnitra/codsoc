@@ -133,7 +133,7 @@ const TestimonialsFour: React.FC = () => {
                         />
                       </span>
                       <p className='text-heading h3 fw-medium font-body tw-leading-153 animate-left-right animation-delay-2 tw-duration-200'>
-                        “codsoc25 hires great people from a widely variety of
+                        “CodSoc'25 hires great people from a widely variety of
                         backgrounds, which simply makes our compan stronger, and
                         we couldn't be prouder of that.”
                       </p>
@@ -182,7 +182,7 @@ const TestimonialsFour: React.FC = () => {
                         />
                       </span>
                       <p className='text-heading h3 fw-medium font-body tw-leading-153 animate-left-right animation-delay-2 tw-duration-200'>
-                        “codsoc25 hires great people from a wide range of
+                        “CodSoc'25 hires great people from a wide range of
                         backgrounds, which simply strengthens our company, and
                         we couldn't be prouder of that,” the company says.
                       </p>
@@ -231,7 +231,7 @@ const TestimonialsFour: React.FC = () => {
                         />
                       </span>
                       <p className='text-heading h3 fw-medium font-body tw-leading-153 animate-left-right animation-delay-2 tw-duration-200'>
-                        "codsoc25 brings together talented individuals from
+                        "CodSoc'25 brings together talented individuals from
                         diverse backgrounds, strengthening our company in the
                         best way possible.
                       </p>

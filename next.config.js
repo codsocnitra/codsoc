@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "nextjs.codsoc25.webnextpro.com",
+        hostname: "nextjs.CodSoc'25.webnextpro.com",
         port: "",
         pathname: "/**",
       },

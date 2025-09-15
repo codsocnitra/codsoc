@@ -3,19 +3,19 @@ import type { MetadataRoute } from "next";
 const sitemap = (): MetadataRoute.Sitemap => {
   return [
     {
-      url: "https://nextjs.codsoc25.webnextpro.com",
+      url: "https://nextjs.CodSoc'25.webnextpro.com",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: "https://nextjs.codsoc25.webnextpro.com/about",
+      url: "https://nextjs.CodSoc'25.webnextpro.com/about",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: "https://nextjs.codsoc25.webnextpro.com/blog",
+      url: "https://nextjs.CodSoc'25.webnextpro.com/blog",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.5,
