@@ -27,17 +27,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/clubLead.png"
+                  src="/assets/images/thumbs/lead.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/sidd2604"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -50,7 +50,7 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.instagram.com"
+                      href="https://www.instagram.com/rajatsharma4840_"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
                       <i className="ph-fill ph-instagram-logo" />
@@ -58,10 +58,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="www.linkedin.com/in/sidd2604/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -85,17 +85,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/co-lead.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/DeepanshiKashyap"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -116,10 +116,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/deepanshi-kashyap-862952290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -127,7 +127,7 @@ const AllTeamMembers: React.FC = () => {
               <div className="tw-mt-705 text-center">
                 <h6 className="tw-mb-2">Deepanshi Kashyap</h6>
                 <span className="text-capitalize text-neutral-500 tw-text-sm">
-                 Club Co-Lead
+                  Club Co-Lead
                 </span>
               </div>
             </div>
@@ -143,22 +143,22 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/technicalLead.png"
+                  src="/assets/images/thumbs/tech-lead.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/sarthak03dot"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.twitter.com"
+                      href="https://www.twitter.com/sarthak03dot"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
                       <i className="ph-fill ph-twitter-logo" />
@@ -166,7 +166,7 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.instagram.com"
+                      href="https://www.instagram.com/sarthak03dot"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
                       <i className="ph-fill ph-instagram-logo" />
@@ -174,10 +174,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/sarthak03dot"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -201,17 +201,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/ed-lead.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -232,10 +232,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/aakanksha-sain-thakur-2b6485268/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -259,17 +259,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/outreact-lead.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -290,10 +290,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -317,17 +317,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/event-coordinator.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -348,10 +348,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -375,17 +375,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/co-tech-lead2.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -406,10 +406,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -433,17 +433,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/co-tech-lead1.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -464,10 +464,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/jeetendra-singh-328938315/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -491,17 +491,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/co-ed-lead.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -522,10 +522,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -556,10 +556,10 @@ const AllTeamMembers: React.FC = () => {
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -580,10 +580,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -607,17 +607,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/co-outreact-lead2.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/Saurabhupadhyay8170"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -638,10 +638,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -665,17 +665,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/co-outreact-lead1.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -696,10 +696,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/smita-sharma-600531363?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -723,17 +723,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/co-event-coordinator2.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -754,10 +754,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
@@ -781,17 +781,17 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/thumbs/co-event-coordinator.png"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://github.com/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-facebook-logo" />
+                      <i className="ph-fill ph-github-logo" />
                     </Link>
                   </li>
                   <li>
@@ -812,10 +812,10 @@ const AllTeamMembers: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://www.pinterest.com"
+                      href="https://www.linkedin.com/in/"
                       className="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center"
                     >
-                      <i className="ph-fill ph-pinterest-logo" />
+                      <i className="ph-fill ph-linkedin-logo" />
                     </Link>
                   </li>
                 </ul>
