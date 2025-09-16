@@ -12,21 +12,21 @@ import type { Metadata } from "next";
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: "Policy-privacy | SassTech - Saas Software and IT Solution",
+    title: "Policy-privacy | CodSoc'25 - CodSoc'25 Software and IT Solution",
     description:
-      "Learn more about our SaaS software, team, features, and IT solutions.",
+      "Learn more about our CodSoc'25 software, team, features, and IT solutions.",
     openGraph: {
-      title: "About | SassTech",
+      title: "About | CodSoc'25",
       description:
-        "Learn more about our SaaS software, team, features, and IT solutions.",
-      url: "https://nextjs.sasstech.webnextpro.com/about",
+        "Learn more about our CodSoc'25 software, team, features, and IT solutions.",
+      url: "https://nextjs.CodSoc'25.webnextpro.com/about",
       type: "website",
       images: [
         {
-          url: "https://nextjs.sasstech.webnextpro.com/images/meta.png",
+          url: "https://nextjs.CodSoc'25.webnextpro.com/images/meta.png",
           width: 1200,
           height: 630,
-          alt: "About SassTech",
+          alt: "About CodSoc'25",
         },
       ],
     },
@@ -47,7 +47,7 @@ const Page: React.FC = () => {
         <HeaderOne />
 
         {/* Breadcrumb */}
-        <Breadcrumb title={"Sasstech is here to help you launch"} />
+        <Breadcrumb title={"CodSoc'25 is here to help you launch"} />
 
         {/* PrivacyPolicyInner */}
         <PrivacyPolicyInner />

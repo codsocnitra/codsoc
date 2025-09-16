@@ -19,13 +19,13 @@ const BrandThree = dynamic(() => import("../../components/BrandThree"));
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: "About | SassTech - Saas Software and IT Solution",
+    title: "About | CodSoc'25 - CodSoc'25 Software and IT Solution",
     description:
-      "Learn more about our SaaS software, team, features, and IT solutions.",
+      "Learn more about our CodSoc'25 software, team, features, and IT solutions.",
     openGraph: {
-      title: "About | SassTech",
+      title: "About | CodSoc'25",
       description:
-        "Learn more about our SaaS software, team, features, and IT solutions.",
+        "Learn more about our CodSoc'25 software, team, features, and IT solutions.",
     },
   };
 };

@@ -11,7 +11,7 @@ const IntegrationFeaturesInner: React.FC = () => {
           <p className='tw-text-lg text-neutral-500'>
             Charity and Donation is a categories that involves giving financial
             category that involves giving financial or Below is a suggested
-            outlines for a privacy policy for a Software as a Service (SaaS)
+            outlines for a privacy policy for a Software as a Service (CodSoc'25)
             company. keep in mind that privacy policies should be customized to
             reflect the specific practices and policies of your company, as well
             as any applicable laws and regulations. It's also recommended to
@@ -27,7 +27,7 @@ const IntegrationFeaturesInner: React.FC = () => {
           <p className='tw-text-lg text-neutral-500'>
             Charity and Donation is a categories that involves giving financial
             category that involves giving financial or Below is a suggested
-            outlines for a privacy policy for a Software as a Service (SaaS)
+            outlines for a privacy policy for a Software as a Service (CodSoc'25)
             company. keep in mind that privacy policies should be customized to
             reflect the specific practices and policies of your company, as well
             as any applicable laws and regulations. It's also recommended to

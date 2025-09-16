@@ -51,7 +51,7 @@ const BrandFour: React.FC = () => {
           data-aos-duration={1000}
         >
           <h4 className='mb-0 fw-bold line-clamp-1 font-caveat'>
-            Loved by next-gen B2B <span className='text-orange'>SaaS</span>{" "}
+            Loved by next-gen B2B <span className='text-orange'>CodSoc'25</span>{" "}
             companies.....
           </h4>
         </div>

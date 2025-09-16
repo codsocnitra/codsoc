@@ -25,19 +25,19 @@ export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: "Home | CodSoc'25 - Official Coding Society of NITRA Technical Campus",
     description:
-      "Learn more about our SaaS software, team, features, and IT solutions.",
+      "Learn more about our CodSoc'25 software, team, features, and IT solutions.",
     openGraph: {
       title: "Home | CodSoc'25",
       description:
         "CodSoc’25 – Official Coding Society of NITRA Technical Campus",
-      url: "https://nextjs.sasstech.webnextpro.com/about",
+      url: "https://nextjs.CodSoc'25.webnextpro.com/about",
       type: "website",
       images: [
         {
-          url: "https://nextjs.sasstech.webnextpro.com/images/meta.png",
+          url: "https://nextjs.CodSoc'25.webnextpro.com/images/meta.png",
           width: 1200,
           height: 630,
-          alt: "About SassTech",
+          alt: "About CodSoc'25",
         },
       ],
     },

@@ -60,10 +60,10 @@ const montserratAlternates = Montserrat_Alternates({
 export async function generateMetadata() {
   return {
     title: {
-      default: "SassTech - SaaS Template",
-      template: "%s | SassTech",
+      default: "codsoc'25",
+      template: "%s | CodSoc'25",
     },
-    description: "SaaS, IT Solutions, and Software multipurpose template.",
+    description: "CodSoc'25, IT Solutions, and Software multipurpose template.",
     robots: {
       index: true,
       follow: true,

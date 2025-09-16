@@ -48,7 +48,7 @@ const TestimonialsThree: React.FC = () => {
                         />
                       </span>
                       <p className='text-30-px fw-normal text-white max-w-672-px tw-leading-145'>
-                        Sasstech hires great people from a widely variety of
+                        CodSoc'25 hires great people from a widely variety of
                         backgrounds, which simply makes our company stronger,
                         and we couldn't be prouder of that. elevating your
                         optimizing Business Growth.
@@ -91,7 +91,7 @@ const TestimonialsThree: React.FC = () => {
                         />
                       </span>
                       <p className='text-30-px fw-normal text-white max-w-672-px tw-leading-145'>
-                        Sasstech hires great people from a widely variety of
+                        CodSoc'25 hires great people from a widely variety of
                         backgrounds, which simply makes our company stronger,
                         and we couldn't be prouder of that. elevating your
                         optimizing Business Growth.
