@@ -28,7 +28,6 @@ const ImpactAchievements: React.FC = () => {
             flexDirection: "row",
             gap: 8,
             justifyContent: "center",
-            minWidth: "800px",
           }}>
             {stats.map((item, index) => (
               <div

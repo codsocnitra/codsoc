@@ -92,9 +92,8 @@ const FooterOne: React.FC = () => {
                       </span>
                       <div>
                         <p className="text-neutral-400 d-block mb-1">
-                          NITRA Technical Campus <br />
-                          P - Block, Sanjay Nagar, Raj Nagar Sector -23,
-                          Ghaziabad
+                          NITRA Technical Campus <br />P - Block, Sanjay Nagar,
+                          Raj Nagar Sector -23, Ghaziabad
                         </p>
                       </div>
                     </div>
@@ -156,61 +155,70 @@ const FooterOne: React.FC = () => {
                 </a>
               </p>
 
-
               <ul className="d-grid d-sm-flex align-items-center tw-gap-6">
                 <li>
                   <a
                     href="https://www.facebook.com/profile.php?id=61580013342727"
-                    className="text--white tw-text-2xl d-flex align-items-center tw-gap-205 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
+                    className="text--white tw-text-2xl d-flex align-items-center tw-gap-2 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
                   >
                     <span className="text-main-600 d-flex">
                       <i className="ph-fill ph-facebook-logo" />
                     </span>
-                    <span className="tw-text-base">Facebook</span>
+                    <span className="tw-text-base hidden md:inline">
+                      Facebook
+                    </span>
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://x.com/cods_oc"
-                    className="text--white tw-text-2xl d-flex align-items-center tw-gap-205 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
+                    className="text--white tw-text-2xl d-flex align-items-center tw-gap-2 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
                   >
                     <span className="text-main-600 d-flex">
                       <i className="ph-fill ph-twitter-logo" />
                     </span>
-                    <span className="tw-text-base">Twitter</span>
+                    <span className="tw-text-base hidden md:inline">
+                      Twitter
+                    </span>
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://www.instagram.com/cod.soc25?igsh=MWlmeHZhYm9ybW13cA=="
-                    className="text--white tw-text-2xl d-flex align-items-center tw-gap-205 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
+                    className="text--white tw-text-2xl d-flex align-items-center tw-gap-2 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
                   >
                     <span className="text-main-600 d-flex">
                       <i className="ph-fill ph-instagram-logo" />
                     </span>
-                    <span className="tw-text-base">Instagram</span>
+                    <span className="tw-text-base hidden md:inline">
+                      Instagram
+                    </span>
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://www.linkedin.com/in/cod-soc-ab5241382/"
-                    className="text--white tw-text-2xl d-flex align-items-center tw-gap-205 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
+                    className="text--white tw-text-2xl d-flex align-items-center tw-gap-2 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
                   >
                     <span className="text-main-600 d-flex">
                       <i className="ph-fill ph-linkedin-logo" />
                     </span>
-                    <span className="tw-text-base">Linkedin</span>
+                    <span className="tw-text-base hidden md:inline">
+                      Linkedin
+                    </span>
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://www.pinterest.com"
-                    className="text--white tw-text-2xl d-flex align-items-center tw-gap-205 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
+                    className="text--white tw-text-2xl d-flex align-items-center tw-gap-2 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
                   >
                     <span className="text-main-600 d-flex">
                       <i className="ph-fill ph-pinterest-logo" />
                     </span>
-                    <span className="tw-text-base">Pinterest</span>
+                    <span className="tw-text-base hidden md:inline">
+                      Pinterest
+                    </span>
                   </a>
                 </li>
               </ul>
