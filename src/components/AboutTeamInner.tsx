@@ -26,7 +26,7 @@ const AboutTeamInner: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/lead.png"
+                  src="/assets/images/team/lead.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -84,7 +84,7 @@ const AboutTeamInner: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/co-lead.png"
+                  src="/assets/images/team/colead.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -142,7 +142,7 @@ const AboutTeamInner: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/tech-lead.png"
+                  src="/assets/images/team/technicalLead.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -200,7 +200,7 @@ const AboutTeamInner: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/ed-lead.png"
+                  src="/assets/images/team/editorialLead.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />

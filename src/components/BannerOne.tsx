@@ -25,7 +25,7 @@ const BannerOne: React.FC = () => {
                 <span className="d-inline-block fw-semibold">Students</span>{" "}
                 <span className="d-inline-block fw-semibold">into</span>{" "}
                 <span className="d-inline-block fw-semibold">Future-Ready</span>{" "}
-                <span className="d-inline-block fw-semibold">Coders 🚀</span>
+                <span className="d-inline-block fw-semibold">Coders</span>
               </h1>
 
               {/* Subheadline */}

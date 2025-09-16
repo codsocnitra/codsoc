@@ -77,16 +77,16 @@ const ContactInner: React.FC = () => {
                   </h5>
                   <div className='max-w-250-px mx-auto'>
                     <a
-                      href='mailto:contact@CodSoc'25.in'
+                      href='mailto:contact@codsoc25.in'
                       className='group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne'
                     >
-                      contact@CodSoc'25.in
+                      contact@codsoc25.in
                     </a>
                     <a
                       href='mailto:grievance@codsoc.in'
                       className='group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne'
                     >
-                      grievance@CodSoc'25.in
+                      grievance@codsoc25.in
 
                     </a>
                   </div>
@@ -151,16 +151,16 @@ const ContactInner: React.FC = () => {
                     <div>
                       <h6 className='tw-mb-4'>Email</h6>
                       <a
-                        href='mailto:contact@CodSoc'25.in'
+                        href='mailto:contact@codsoc25.in'
                         className='text-neutral-600 hover-text-main-600'
                       >
-                        contact@CodSoc'25.in
+                        contact@codsoc25.in
                       </a>
                       <a
-                        href='mailto:grievance@CodSoc'25.in'
+                        href='mailto:grievance@codsoc25.in'
                         className='text-neutral-600 hover-text-main-600'
                       >
-                        grievance@CodSoc'25.in
+                        grievance@codsoc25.in
                       </a>
                     </div>
                   </div>

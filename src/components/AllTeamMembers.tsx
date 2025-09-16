@@ -27,7 +27,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/lead.png"
+                  src="/assets/images/team/lead.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -85,7 +85,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/co-lead.png"
+                  src="/assets/images/team/colead.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -143,7 +143,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/tech-lead.png"
+                  src="/assets/images/team/technicalLead.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -201,7 +201,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/ed-lead.png"
+                  src="/assets/images/team/editorialLead.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -259,7 +259,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/outreact-lead.png"
+                  src="/assets/images/team/outreachLead.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -317,7 +317,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/event-coordinator.png"
+                  src="/assets/images/team/eventLead.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -375,7 +375,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/co-tech-lead2.png"
+                  src="/assets/images/team/technicalCoLead2.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -433,7 +433,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/co-tech-lead1.png"
+                  src="/assets/images/team/technicalCoLead1.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -491,7 +491,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/co-ed-lead.png"
+                  src="/assets/images/team/editorialCoLead1.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -549,7 +549,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/about-team-img.png"
+                  src="/assets/images/team/editorialCoLead2.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -607,7 +607,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/co-outreact-lead2.png"
+                  src="/assets/images/team/outreachCoLead2.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -665,7 +665,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/co-outreact-lead1.png"
+                  src="/assets/images/team/outreachCoLead1.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -723,7 +723,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/co-event-coordinator2.png"
+                  src="/assets/images/team/eventCoLead2.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
@@ -781,7 +781,7 @@ const AllTeamMembers: React.FC = () => {
                 <Image
                   width={328}
                   height={432}
-                  src="/assets/images/thumbs/co-event-coordinator.png"
+                  src="/assets/images/team/eventCoLead1.jpg"
                   alt="Thumb"
                   className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
                 />
