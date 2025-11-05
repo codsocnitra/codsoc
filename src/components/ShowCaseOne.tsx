@@ -83,7 +83,7 @@ const ShowCaseOne: React.FC = () => {
                     height={513}
                     src='/assets/images/thumbs/show-case-img1.png'
                     alt='tech'
-                    className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
+                    className='w-100 h-100 object-fit-cover threeFourAR group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
                 <Link
@@ -125,7 +125,7 @@ const ShowCaseOne: React.FC = () => {
                     height={514}
                     src='/assets/images/thumbs/show-case-img2.png'
                     alt='tech'
-                    className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
+                    className='w-100 h-100 object-fit-cover threeFourAR group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
                 <Link
@@ -167,7 +167,7 @@ const ShowCaseOne: React.FC = () => {
                     height={514}
                     src='/assets/images/thumbs/show-case-img3.png'
                     alt='tech'
-                    className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
+                    className='w-100 h-100 object-fit-cover threeFourAR group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
                 <Link
@@ -209,7 +209,7 @@ const ShowCaseOne: React.FC = () => {
                     height={514}
                     src='/assets/images/thumbs/show-case-img4.png'
                     alt='tech'
-                    className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
+                    className='w-100 h-100 object-fit-cover threeFourAR group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
                 <Link
@@ -251,7 +251,7 @@ const ShowCaseOne: React.FC = () => {
                     height={514}
                     src='/assets/images/thumbs/show-case-img3.png'
                     alt='tech'
-                    className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
+                    className='w-100 h-100 object-fit-cover threeFourAR group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
                 <Link
@@ -293,7 +293,7 @@ const ShowCaseOne: React.FC = () => {
                     height={514}
                     src='/assets/images/thumbs/show-case-img2.png'
                     alt='tech'
-                    className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
+                    className='w-100 h-100 object-fit-cover threeFourAR group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
                 <Link

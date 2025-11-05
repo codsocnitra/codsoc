@@ -16,7 +16,7 @@ const ChooseUsOne: React.FC = () => {
                 height={624}
                 src="/assets/images/thumbs/choose-us-icon1.jpg"
                 alt="CodSoc Image"
-                className="w-100 h-100 object-fit-cover tw-rounded-3xl"
+                className="w-100 h-100 object-fit-cover threeFourAR tw-rounded-3xl"
               />
               <div className="bg-white max-w-150-px tw-h-150-px w-100 d-flex justify-content-center align-items-center tw-rounded-xl common-shadow-four box position-absolute tw-start-0 top-0 tw-mt-705 z-1">
                 <Image

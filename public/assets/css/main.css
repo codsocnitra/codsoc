@@ -110,7 +110,9 @@
 /* Convert to Rem End */
 /* ======================== Functions Css End ======================= */
 /* ======================== Functions Css End ======================= */
-
+.threeFourAR{
+  aspect-ratio: 3/4;
+}
 :root {
   /* Font Family Variable */
   --heading-font: "Satoshi", sans-serif;

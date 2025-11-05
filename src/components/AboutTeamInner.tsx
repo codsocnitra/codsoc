@@ -28,7 +28,7 @@ const AboutTeamInner: React.FC = () => {
                   height={432}
                   src="/assets/images/team/lead.jpg"
                   alt="Thumb"
-                  className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
+                  className="w-100 h-100 object-fit-cover threeFourAR hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
@@ -86,7 +86,7 @@ const AboutTeamInner: React.FC = () => {
                   height={432}
                   src="/assets/images/team/colead.jpg"
                   alt="Thumb"
-                  className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
+                  className="w-100 h-100 object-fit-cover threeFourAR hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
@@ -144,7 +144,7 @@ const AboutTeamInner: React.FC = () => {
                   height={432}
                   src="/assets/images/team/technicalLead.jpg"
                   alt="Thumb"
-                  className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
+                  className="w-100 h-100 object-fit-cover threeFourAR hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>
@@ -202,7 +202,7 @@ const AboutTeamInner: React.FC = () => {
                   height={432}
                   src="/assets/images/team/editorialLead.jpg"
                   alt="Thumb"
-                  className="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300"
+                  className="w-100 h-100 object-fit-cover threeFourAR hover-scale-108 tw-transition tw-duration-300"
                 />
                 <ul className="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column ">
                   <li>

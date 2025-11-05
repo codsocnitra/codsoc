@@ -20,7 +20,7 @@ const BlogDetailsInner: React.FC = () => {
                     height={507}
                     src='/assets/images/thumbs/blog-page-img1.png'
                     alt='tech'
-                    className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
+                    className='w-100 h-100 object-fit-cover threeFourAR hover-scale-108 tw-duration-500'
                   />
                 </Link>
                 <h6 className='blog-date tw-duration-300 tw-py-4 text-white d-flex justify-content-center align-items-center max-w-85-px w-100 tw-px-4 text-center tw-rounded-lg fw-medium position-absolute top-0 tw-start-0 tw-mt-4 tw-ms-4 bg-main-600 fw-bold font-body'>
@@ -451,7 +451,7 @@ const BlogDetailsInner: React.FC = () => {
                         height={86}
                         src='/assets/images/thumbs/recent-post-img1.png'
                         alt='tech'
-                        className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
+                        className='w-100 h-100 object-fit-cover threeFourAR hover-scale-2 tw-duration-500'
                       />
                     </Link>
                     <div>
@@ -483,7 +483,7 @@ const BlogDetailsInner: React.FC = () => {
                         height={86}
                         src='/assets/images/thumbs/recent-post-img2.png'
                         alt='tech'
-                        className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
+                        className='w-100 h-100 object-fit-cover threeFourAR hover-scale-2 tw-duration-500'
                       />
                     </Link>
                     <div>
@@ -515,7 +515,7 @@ const BlogDetailsInner: React.FC = () => {
                         height={86}
                         src='/assets/images/thumbs/recent-post-img3.png'
                         alt='tech'
-                        className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
+                        className='w-100 h-100 object-fit-cover threeFourAR hover-scale-2 tw-duration-500'
                       />
                     </Link>
                     <div>

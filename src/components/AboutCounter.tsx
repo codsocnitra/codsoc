@@ -15,8 +15,8 @@ const AboutCounter: React.FC = () => {
           </div>
           <h3 className='splitTextStyleOne text-capitaliz fw-semibold'>
             We,ve listed some fascinating
-            <span className='fw-normal'>insights from our</span>
-            data analytics
+            <span className='fw-normal'>insights from our </span>
+             &nbsp;data analytics
           </h3>
         </div>
         <div className='row gy-4'>
@@ -28,7 +28,7 @@ const AboutCounter: React.FC = () => {
           >
             <div className='max-w-295-px tw-max-h-295-px text-center rounded-circle w-100 h-100 aspect-1 d-flex flex-column justify-content-center align-items-center hover-bg-neutral-100 tw-transition tw-duration-200'>
               <h3 className='h1'>
-                <span className='counter'>3+</span>
+                <span className='counter'>4+</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
                 Events
@@ -58,7 +58,7 @@ const AboutCounter: React.FC = () => {
           >
             <div className='max-w-295-px tw-max-h-295-px text-center rounded-circle w-100 h-100 aspect-1 d-flex flex-column justify-content-center align-items-center hover-bg-neutral-100 tw-transition tw-duration-200'>
               <h3 className='h1'>
-                <span className='counter'>3+</span>
+                <span className='counter'>6+</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
                 programs
@@ -73,7 +73,7 @@ const AboutCounter: React.FC = () => {
           >
             <div className='max-w-295-px tw-max-h-295-px text-center rounded-circle w-100 h-100 aspect-1 d-flex flex-column justify-content-center align-items-center hover-bg-neutral-100 tw-transition tw-duration-200'>
               <h3 className='h1'>
-                <span className='counter'>300+</span>
+                <span className='counter'>400+</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
                 participants
